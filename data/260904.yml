@@ -1,0 +1,67 @@
+about:
+  description: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
+  license: Apache-2.0
+  homepage: https://google.github.io/osv-scanner/
+  head: 47e77c9
+  archived: false
+  latestVersion: v2.5.1
+  collectedAt: 2026-09-04T04:41:12Z
+timeline:
+  created: 2022-11-14
+  lastCommit: 2026-09-04
+  lastRelease: 2026-08-17
+popularity:
+  star: 10971
+  watcher: 75
+  fork: 784
+  release: 54
+  contributor: 135
+  pullRequest: 396
+  issue: 548
+language:
+  Go: 809957
+  Python: 33349
+  Go Template: 21365
+  JavaScript: 17669
+  CSS: 10595
+  Java: 9299
+  Shell: 5655
+  PHP: 5628
+  Dockerfile: 4858
+  R: 4673
+  Ruby: 3611
+  Makefile: 2255
+totalLine: 928914
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 2
+    mergedPR: 35
+    openPR: 6
+    closedIssue: 7
+    openIssue: 11
+    commit: 41
+  last90d:
+    since: 2026-06-06
+    release: 3
+    mergedPR: 76
+    openPR: 13
+    closedIssue: 18
+    openIssue: 19
+    commit: 77
+  last180d:
+    since: 2026-03-08
+    release: 6
+    mergedPR: 216
+    openPR: 14
+    closedIssue: 44
+    openIssue: 23
+    commit: 218
+  last360d:
+    since: 2025-09-09
+    release: 12
+    mergedPR: 524
+    openPR: 18
+    closedIssue: 72
+    openIssue: 27
+    commit: 526
