@@ -5,7 +5,7 @@ about:
   head: 43026d7
   archived: false
   latestVersion: "v2.5.1"
-  collectedAt: 2026-09-08T01:32:20Z
+  collectedAt: 2026-09-08T04:05:05Z
 timeline:
   created: 2022-11-14
   lastCommit: 2026-09-07
@@ -61,7 +61,7 @@ recent:
     since: 2026-03-12
     release: 6
     mergedPR: 204
-    openPR: 18
+    openPR: 17
     closedIssue: 42
     openIssue: 26
     commit: 205
@@ -69,7 +69,7 @@ recent:
     since: 2025-09-13
     release: 12
     mergedPR: 523
-    openPR: 22
+    openPR: 21
     closedIssue: 71
     openIssue: 30
     commit: 522
@@ -77,20 +77,20 @@ recent:
     since: 2024-09-18
     release: 26
     mergedPR: 1192
-    openPR: 22
+    openPR: 21
     closedIssue: 220
     openIssue: 59
     commit: 1182
 total:
   release: 54
   mergedPR: 2038
-  openPR: 22
+  openPR: 21
   closedIssue: 449
   openIssue: 101
   commit: 2014
 ---
 path: /home/runner/.x-repo/github.com/google/osv-scanner
-collectedAt: 2026-09-08T01:32:26Z
+collectedAt: 2026-09-08T04:05:10Z
 loc:
   Yaml:
     code: 123180
