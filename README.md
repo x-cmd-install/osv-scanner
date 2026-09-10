@@ -12,48 +12,7 @@ Vulnerability scanner written in Go which uses the data provided by https://osv.
 x install osv-scanner
 ```
 
-## Source
-
-- **Upstream**: <https://github.com/google/osv-scanner>
-- **Homepage**: <https://google.github.io/osv-scanner/>
-- **License**: Apache-2.0
-
-## Release
-
-- **Latest**: `v2.5.1` (2026-08-17)
-- **Last commit**: 2026-09-10
-- **Assets in release**: 8
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [multiple.intoto.jsonl](https://github.com/google/osv-scanner/releases/download/v2.5.1/multiple.intoto.jsonl) | 23.9 KiB | `other` |
-| [osv-scanner_darwin_amd64](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_darwin_amd64) | 56.2 MiB | `native/darwin/x64` |
-| [osv-scanner_darwin_arm64](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_darwin_arm64) | 52.9 MiB | `native/darwin/arm64` |
-| [osv-scanner_linux_amd64](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_linux_amd64) | 55.1 MiB | `native/linux/x64` |
-| [osv-scanner_linux_arm64](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_linux_arm64) | 51.4 MiB | `native/linux/arm64` |
-| [osv-scanner_SHA256SUMS](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_SHA256SUMS) | 554 B | `other` |
-| [osv-scanner_windows_amd64.exe](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_windows_amd64.exe) | 56.2 MiB | `native/win/x64` |
-| [osv-scanner_windows_arm64.exe](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_windows_arm64.exe) | 51.9 MiB | `native/win/arm64` |
-
-## Popularity
-
-- **Stars**: 11,002 · **Forks**: 789 · **Open issues**: 551 · **Contributors**: 123
-
-## Totals (cumulative)
-
-- **Releases**: 54 · **Merged PRs**: 2054 · **Open PRs**: 16 · **Closed issues**: 453 · **Open issues**: 98 · **Commits**: 2030
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 46 | 6 | 7 | 9 | 49 |
-| 90d | 2026-06-12 | 3 | 88 | 9 | 20 | 16 | 90 |
-| 360d | 2025-09-15 | 12 | 535 | 16 | 75 | 27 | 537 |
-
-## Code size
+## Code insight
 
 Total: **210,348** lines of code across **351** files in the top 5 languages.
 
@@ -75,6 +34,63 @@ Lowest-scoring checks:
 - **Fuzzing** (0/10) — project is not fuzzed
 - **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
 
+## Source
+
+- **Upstream**: <https://github.com/google/osv-scanner>
+- **Homepage**: <https://google.github.io/osv-scanner/>
+- **License**: Apache-2.0
+
+## Release
+
+- **Latest**: `v2.5.1` (2026-08-17)
+- **Last commit**: 2026-09-10
+- **Assets in release**: 8
+
+## Popularity
+
+- **Stars**: 11,002 · **Forks**: 788 · **Open issues**: 552 · **Contributors**: 123
+
+## Totals (cumulative)
+
+- **Releases**: 54 · **Merged PRs**: 2054 · **Open PRs**: 17 · **Closed issues**: 453 · **Open issues**: 99 · **Commits**: 2030
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 1 | 46 | 7 | 7 | 10 | 49 |
+| last60d | 2026-07-12 | 2 | 73 | 8 | 14 | 14 | 79 |
+| 90d | 2026-06-12 | 3 | 88 | 10 | 20 | 17 | 90 |
+| last180d | 2026-03-14 | 6 | 218 | 13 | 46 | 24 | 220 |
+| 360d | 2025-09-15 | 12 | 535 | 17 | 75 | 28 | 537 |
+| last720d | 2024-09-20 | 26 | 1205 | 17 | 223 | 56 | 1192 |
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [multiple.intoto.jsonl](https://github.com/google/osv-scanner/releases/download/v2.5.1/multiple.intoto.jsonl) | 23.9 KiB | `other` |
+| [osv-scanner_darwin_amd64](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_darwin_amd64) | 56.2 MiB | `native/darwin/x64` |
+| [osv-scanner_darwin_arm64](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_darwin_arm64) | 52.9 MiB | `native/darwin/arm64` |
+| [osv-scanner_linux_amd64](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_linux_amd64) | 55.1 MiB | `native/linux/x64` |
+| [osv-scanner_linux_arm64](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_linux_arm64) | 51.4 MiB | `native/linux/arm64` |
+| [osv-scanner_SHA256SUMS](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_SHA256SUMS) | 554 B | `other` |
+| [osv-scanner_windows_amd64.exe](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_windows_amd64.exe) | 56.2 MiB | `native/win/x64` |
+| [osv-scanner_windows_arm64.exe](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_windows_arm64.exe) | 51.9 MiB | `native/win/arm64` |
+
+## Distribution status
+
+Reported by **35** distros on [repology.org](https://repology.org/project/osv-scanner). **11** are ✅ on the latest upstream release, **23** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `2.5.1` | ✅ latest |
+| Homebrew | `2.5.1` | ✅ latest |
+| Nix unstable | `2.5.1` | ✅ latest |
+| Void | `2.4.0` | ⚠️ outdated |
+| Alpine edge | `2.5.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `2.5.1` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `osv-scanner` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -84,4 +100,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T15:56:42Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:11:36Z._
