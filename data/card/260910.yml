@@ -7,7 +7,7 @@ about:
   latestVersion: "v2.5.1"
   latestRelease: "v2.5.1"
   latestPrerelease: "v2.0.0-rc1"
-  collectedAt: 2026-09-10T20:11:15Z
+  collectedAt: 2026-09-10T23:39:24Z
 timeline:
   created: 2022-11-14
   lastCommit: 2026-09-10
@@ -94,7 +94,7 @@ total:
   commit: 2030
 ---
 path: /home/runner/.x-repo/github.com/google/osv-scanner
-collectedAt: 2026-09-10T20:11:23Z
+collectedAt: 2026-09-10T23:39:30Z
 loc:
   Yaml:
     code: 123179
