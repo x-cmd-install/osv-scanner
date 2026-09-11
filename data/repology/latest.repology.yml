@@ -24,13 +24,6 @@
     - git@rxv.cc
   licenses:
     - Apache-2.0
-- repo: homebrew
-  srcname: osv-scanner
-  visiblename: osv-scanner
-  version: 2.5.1
-  origversion: null
-  status: newest
-  summary: Vulnerability scanner which uses the OSV database
 - repo: alpine_3_20
   subrepo: community
   srcname: osv-scanner
@@ -155,6 +148,13 @@
     - dutra@freebsd.org
   categories:
     - security
+- repo: homebrew
+  srcname: osv-scanner
+  visiblename: osv-scanner
+  version: 2.5.1
+  origversion: null
+  status: newest
+  summary: Vulnerability scanner which uses the OSV database
 - repo: homebrew
   srcname: osv-scanner
   visiblename: osv-scanner
@@ -339,7 +339,7 @@
     - osv-scanner-debugsource
   visiblename: osv-scanner
   version: 2.5.1
-  origversion: 2.5.1-97.2
+  origversion: 2.5.1-97.3
   status: newest
   summary: Vulnerability scanner written in Go
   licenses:

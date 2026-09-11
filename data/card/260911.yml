@@ -2,12 +2,12 @@ about:
   description: "Vulnerability scanner written in Go which uses the data provided by https://osv.dev"
   license: Apache-2.0
   homepage: https://google.github.io/osv-scanner/
-  head: 93d3cad
+  head: 1f87b5c
   archived: false
   latestVersion: "v2.5.1"
   latestRelease: "v2.5.1"
   latestPrerelease: "v2.0.0-rc1"
-  collectedAt: 2026-09-11T04:07:48Z
+  collectedAt: 2026-09-11T20:41:40Z
 timeline:
   created: 2022-11-14
   lastCommit: 2026-09-11
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-08-17
   lastPrerelease: 2025-03-10
 popularity:
-  star: 11003
-  watcher: 76
+  star: 11009
+  watcher: 77
   fork: 788
   release: 54
   contributor: 125
-  pullRequest: 2456
+  pullRequest: 2458
   issue: 552
 language:
   Go: 817565
@@ -40,61 +40,61 @@ recent:
   last30d:
     since: 2026-08-12
     release: 1
-    mergedPR: 49
-    openPR: 7
+    mergedPR: 50
+    openPR: 8
     closedIssue: 8
     openIssue: 9
-    commit: 53
+    commit: 54
   last60d:
     since: 2026-07-13
     release: 2
-    mergedPR: 76
-    openPR: 8
+    mergedPR: 77
+    openPR: 9
     closedIssue: 15
     openIssue: 13
-    commit: 83
+    commit: 84
   last90d:
     since: 2026-06-13
     release: 3
-    mergedPR: 92
-    openPR: 9
-    closedIssue: 21
-    openIssue: 16
-    commit: 94
+    mergedPR: 93
+    openPR: 10
+    closedIssue: 22
+    openIssue: 15
+    commit: 95
   last180d:
     since: 2026-03-15
     release: 6
-    mergedPR: 220
-    openPR: 12
-    closedIssue: 47
-    openIssue: 23
-    commit: 224
+    mergedPR: 221
+    openPR: 13
+    closedIssue: 48
+    openIssue: 22
+    commit: 225
   last360d:
     since: 2025-09-16
     release: 12
-    mergedPR: 538
-    openPR: 16
-    closedIssue: 76
-    openIssue: 27
-    commit: 541
+    mergedPR: 539
+    openPR: 17
+    closedIssue: 77
+    openIssue: 26
+    commit: 542
   last720d:
     since: 2024-09-21
     release: 26
-    mergedPR: 1209
-    openPR: 16
-    closedIssue: 224
-    openIssue: 55
-    commit: 1194
+    mergedPR: 1210
+    openPR: 17
+    closedIssue: 225
+    openIssue: 54
+    commit: 1195
 total:
   release: 54
-  mergedPR: 2058
-  openPR: 16
-  closedIssue: 454
-  openIssue: 98
-  commit: 2034
+  mergedPR: 2059
+  openPR: 17
+  closedIssue: 455
+  openIssue: 97
+  commit: 2035
 ---
 path: /home/runner/.x-repo/github.com/google/osv-scanner
-collectedAt: 2026-09-11T04:07:54Z
+collectedAt: 2026-09-11T20:41:47Z
 loc:
   Yaml:
     code: 123179
@@ -257,15 +257,23 @@ total:
   blanks: 9094
   files: 573
 ---
-date: "2026-09-11T01:01:51Z"
+date: "2026-09-11T05:33:28Z"
 repo:
   name: github.com/google/osv-scanner
-  commit: 93d3cad4191c515c8edaa66805991381ab82d3d5
+  commit: 1f87b5cb9781a03a9b8b50dfc1eac1b2056c79d5
 scorecard:
   version: v5.5.0
   commit: c395761df6afe1a69e476bc60a013a94bcbc153f
 score: 8.6
 checks:
+  - name: Binary-Artifacts
+    score: 10
+    reason: no binaries found in the repo
+    details: null
+  - name: Dangerous-Workflow
+    score: 10
+    reason: no dangerous workflow patterns detected
+    details: null
   - name: Code-Review
     score: 10
     reason: all changesets reviewed
@@ -275,18 +283,6 @@ checks:
     reason: update tool detected
     details:
       - 'Info: detected update tool: RenovateBot: renovate.json:1'
-  - name: Maintained
-    score: 10
-    reason: 30 commit(s) and 15 issue activity found in the last 90 days -- score normalized to 10
-    details: null
-  - name: Binary-Artifacts
-    score: 10
-    reason: no binaries found in the repo
-    details: null
-  - name: Dangerous-Workflow
-    score: 10
-    reason: no dangerous workflow patterns detected
-    details: null
   - name: Token-Permissions
     score: 8
     reason: detected GitHub workflow tokens with excessive permissions
@@ -311,25 +307,25 @@ checks:
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/osv-scanner-unified-action.yml:40'
       - 'Warn: jobLevel ''security-events'' permission set to ''write'': .github/workflows/osv-scanner-unified-action.yml:41'
       - 'Info: jobLevel ''actions'' permission set to ''read'': .github/workflows/osv-scanner-unified-action.yml:42'
-      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/prerelease-check.yml:74'
-      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/prerelease-check.yml:115'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/prerelease-check.yml:167'
+      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/prerelease-check.yml:34'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/prerelease-check.yml:46'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/prerelease-check.yml:58'
-      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/prerelease-check.yml:92'
+      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/prerelease-check.yml:74'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/prerelease-check.yml:145'
+      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/prerelease-check.yml:22'
       - 'Warn: jobLevel ''security-events'' permission set to ''write'': .github/workflows/prerelease-check.yml:23'
       - 'Info: jobLevel ''actions'' permission set to ''read'': .github/workflows/prerelease-check.yml:24'
-      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/prerelease-check.yml:22'
-      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/prerelease-check.yml:34'
+      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/prerelease-check.yml:92'
+      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/prerelease-check.yml:115'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/renovate-validator.yml:21'
-      - 'Warn: jobLevel ''actions'' permission set to ''write'': .github/workflows/snapshots.yml:20'
       - 'Warn: jobLevel ''contents'' permission set to ''write'': .github/workflows/snapshots.yml:19'
-      - 'Info: found token with ''none'' permissions: .github/workflows/tests.yml:1'
+      - 'Warn: jobLevel ''actions'' permission set to ''write'': .github/workflows/snapshots.yml:20'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/tests.yml:37'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/tests.yml:59'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/tests.yml:84'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/tests.yml:116'
+      - 'Info: found token with ''none'' permissions: .github/workflows/tests.yml:1'
       - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/zizmor.yml:16'
       - 'Info: jobLevel ''actions'' permission set to ''read'': .github/workflows/zizmor.yml:17'
       - 'Info: found token with ''none'' permissions: .github/workflows/cassettes.yml:1'
@@ -340,8 +336,8 @@ checks:
       - 'Info: found token with ''none'' permissions: .github/workflows/goreleaser-nightly.yml:1'
       - 'Info: found token with ''none'' permissions: .github/workflows/goreleaser.yml:1'
       - 'Info: found token with ''none'' permissions: .github/workflows/links.yml:1'
-      - 'Warn: topLevel ''security-events'' permission set to ''write'': .github/workflows/osv-scanner-reusable-pr.yml:24'
       - 'Info: topLevel ''contents'' permission set to ''read'': .github/workflows/osv-scanner-reusable-pr.yml:23'
+      - 'Warn: topLevel ''security-events'' permission set to ''write'': .github/workflows/osv-scanner-reusable-pr.yml:24'
       - 'Info: topLevel ''contents'' permission set to ''read'': .github/workflows/osv-scanner-reusable.yml:23'
       - 'Warn: topLevel ''security-events'' permission set to ''write'': .github/workflows/osv-scanner-reusable.yml:24'
       - 'Info: found token with ''none'' permissions: .github/workflows/osv-scanner-unified-action.yml:1'
@@ -353,13 +349,17 @@ checks:
       - 'Info: found token with ''none'' permissions: .github/workflows/tests.yml:1'
       - 'Info: topLevel ''pull-requests'' permission set to ''read'': .github/workflows/title.yml:26'
       - 'Info: found token with ''none'' permissions: .github/workflows/zizmor.yml:1'
+  - name: Maintained
+    score: 10
+    reason: 30 commit(s) and 15 issue activity found in the last 90 days -- score normalized to 10
+    details: null
   - name: Pinned-Dependencies
     score: 9
     reason: dependency not pinned by hash detected -- score normalized to 9
     details:
       - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/goreleaser.yml:79: update your workflow using https://app.stepsecurity.io/secureworkflow/google/osv-scanner/goreleaser.yml/main?enable=pin'
-      - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/osv-scanner-unified-action.yml:45: update your workflow using https://app.stepsecurity.io/secureworkflow/google/osv-scanner/osv-scanner-unified-action.yml/main?enable=pin'
       - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/osv-scanner-unified-action.yml:37: update your workflow using https://app.stepsecurity.io/secureworkflow/google/osv-scanner/osv-scanner-unified-action.yml/main?enable=pin'
+      - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/osv-scanner-unified-action.yml:45: update your workflow using https://app.stepsecurity.io/secureworkflow/google/osv-scanner/osv-scanner-unified-action.yml/main?enable=pin'
       - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/prerelease-check.yml:25: update your workflow using https://app.stepsecurity.io/secureworkflow/google/osv-scanner/prerelease-check.yml/main?enable=pin'
       - 'Info:  57 out of  57 GitHub-owned GitHubAction dependencies pinned'
       - 'Info:  21 out of  25 third-party GitHubAction dependencies pinned'
@@ -368,6 +368,12 @@ checks:
     score: 0
     reason: no effort to earn an OpenSSF best practices badge detected
     details: null
+  - name: License
+    score: 10
+    reason: license file detected
+    details:
+      - 'Info: project has a license file: LICENSE:0'
+      - 'Info: FSF or OSI recognized license: Apache License 2.0: LICENSE:0'
   - name: Signed-Releases
     score: 10
     reason: 5 out of the last 5 releases have a total of 5 signed artifacts.
@@ -382,6 +388,11 @@ checks:
     reason: packaging workflow detected
     details:
       - 'Info: Project packages its releases by way of GitHub Actions.: .github/workflows/goreleaser-nightly.yml:15'
+  - name: Fuzzing
+    score: 0
+    reason: project is not fuzzed
+    details:
+      - 'Warn: no fuzzer integrations found'
   - name: Branch-Protection
     score: 4
     reason: branch protection is not maximal on development and all release branches
@@ -396,17 +407,6 @@ checks:
       - 'Warn: ''up-to-date branches'' is disabled on branch ''main'''
       - 'Info: status check found to merge onto on branch ''main'''
       - 'Info: PRs are required in order to make changes on branch ''main'''
-  - name: License
-    score: 10
-    reason: license file detected
-    details:
-      - 'Info: project has a license file: LICENSE:0'
-      - 'Info: FSF or OSI recognized license: Apache License 2.0: LICENSE:0'
-  - name: Fuzzing
-    score: 0
-    reason: project is not fuzzed
-    details:
-      - 'Warn: no fuzzer integrations found'
   - name: Security-Policy
     score: 10
     reason: security policy file detected
@@ -415,16 +415,16 @@ checks:
       - 'Info: Found linked content: github.com/google/.github/SECURITY.md:1'
       - 'Info: Found disclosure, vulnerability, and/or timelines in security policy: github.com/google/.github/SECURITY.md:1'
       - 'Info: Found text in security policy: github.com/google/.github/SECURITY.md:1'
+  - name: Vulnerabilities
+    score: -1
+    reason: 'internal error: vulnerabilitiesClient.ListUnfixedVulnerabilities: osvscanner.DoScan: client error: status="400 Bad Request" body={"code":3,"message":"error in query at index 76: rpc error: code = InvalidArgument desc = invalid hash"}'
+    details: null
   - name: SAST
     score: 10
     reason: SAST tool is run on all commits
     details:
       - 'Info: SAST configuration detected: CodeQL'
       - 'Info: all commits (30) are checked with a SAST tool'
-  - name: Vulnerabilities
-    score: -1
-    reason: 'internal error: vulnerabilitiesClient.ListUnfixedVulnerabilities: osvscanner.DoScan: client error: status="400 Bad Request" body={"code":3,"message":"error in query at index 76: rpc error: code = InvalidArgument desc = invalid hash"}'
-    details: null
   - name: CI-Tests
     score: 10
     reason: 29 out of 29 merged PRs checked by a CI test -- score normalized to 10
