@@ -31,8 +31,8 @@ Overall score: **8.6 / 10**
 Lowest-scoring checks:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
 - **Fuzzing** (0/10) — project is not fuzzed
+- **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,003 · **Forks**: 788 · **Open issues**: 552 · **Contributors**: 125
+- **Stars**: 11,009 · **Forks**: 788 · **Open issues**: 552 · **Contributors**: 125
 
 ## Totals (cumulative)
 
-- **Releases**: 54 · **Merged PRs**: 2058 · **Open PRs**: 16 · **Closed issues**: 454 · **Open issues**: 98 · **Commits**: 2034
+- **Releases**: 54 · **Merged PRs**: 2059 · **Open PRs**: 17 · **Closed issues**: 455 · **Open issues**: 97 · **Commits**: 2035
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 1 | 49 | 7 | 8 | 9 | 53 |
-| last60d | 2026-07-13 | 2 | 76 | 8 | 15 | 13 | 83 |
-| 90d | 2026-06-13 | 3 | 92 | 9 | 21 | 16 | 94 |
-| last180d | 2026-03-15 | 6 | 220 | 12 | 47 | 23 | 224 |
-| 360d | 2025-09-16 | 12 | 538 | 16 | 76 | 27 | 541 |
-| last720d | 2024-09-21 | 26 | 1209 | 16 | 224 | 55 | 1194 |
+| 30d | 2026-08-12 | 1 | 50 | 8 | 8 | 9 | 54 |
+| last60d | 2026-07-13 | 2 | 77 | 9 | 15 | 13 | 84 |
+| 90d | 2026-06-13 | 3 | 93 | 10 | 22 | 15 | 95 |
+| last180d | 2026-03-15 | 6 | 221 | 13 | 48 | 22 | 225 |
+| 360d | 2025-09-16 | 12 | 539 | 17 | 77 | 26 | 542 |
+| last720d | 2024-09-21 | 26 | 1210 | 17 | 225 | 54 | 1195 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T04:08:00Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T20:41:55Z._
