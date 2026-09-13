@@ -31,8 +31,8 @@ Overall score: **8.6 / 10**
 Lowest-scoring checks:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Fuzzing** (0/10) — project is not fuzzed
 - **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
+- **Fuzzing** (0/10) — project is not fuzzed
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,014 · **Forks**: 788 · **Open issues**: 552 · **Contributors**: 125
+- **Stars**: 11,019 · **Forks**: 789 · **Open issues**: 553 · **Contributors**: 125
 
 ## Totals (cumulative)
 
-- **Releases**: 54 · **Merged PRs**: 2059 · **Open PRs**: 17 · **Closed issues**: 455 · **Open issues**: 97 · **Commits**: 2035
+- **Releases**: 54 · **Merged PRs**: 2059 · **Open PRs**: 18 · **Closed issues**: 455 · **Open issues**: 98 · **Commits**: 2035
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-13 | 1 | 47 | 8 | 8 | 8 | 54 |
-| last60d | 2026-07-14 | 2 | 77 | 9 | 15 | 13 | 84 |
-| 90d | 2026-06-14 | 3 | 92 | 10 | 22 | 15 | 95 |
-| last180d | 2026-03-16 | 6 | 218 | 13 | 48 | 22 | 225 |
-| 360d | 2025-09-17 | 12 | 538 | 17 | 77 | 26 | 542 |
-| last720d | 2024-09-22 | 26 | 1208 | 17 | 225 | 54 | 1195 |
+| 30d | 2026-08-14 | 1 | 46 | 9 | 8 | 9 | 54 |
+| last60d | 2026-07-15 | 2 | 77 | 10 | 15 | 14 | 84 |
+| 90d | 2026-06-15 | 3 | 91 | 11 | 21 | 15 | 95 |
+| last180d | 2026-03-17 | 6 | 218 | 14 | 48 | 23 | 225 |
+| 360d | 2025-09-18 | 12 | 537 | 18 | 77 | 27 | 542 |
+| last720d | 2024-09-23 | 26 | 1206 | 18 | 224 | 55 | 1195 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260912.yml` · 2026-09-12T04:08:39Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T04:19:57Z._
