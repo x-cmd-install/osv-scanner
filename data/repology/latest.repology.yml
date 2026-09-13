@@ -1,3 +1,28 @@
+- repo: macports
+  srcname: security/osv-scanner
+  binname: osv-scanner
+  visiblename: osv-scanner
+  version: 2.5.1
+  origversion: null
+  status: newest
+  summary: Vulnerability scanner which uses the data provided by https://osv.dev
+  maintainers:
+    - herbygillot@github
+  licenses:
+    - Apache-2
+  categories:
+    - security
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: osv-scanner
+  binname: osv-scanner
+  visiblename: osv-scanner
+  version: 2.5.1
+  origversion: 2.5.1-1
+  status: newest
+  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_18
   subrepo: community
   srcname: osv-scanner
@@ -162,31 +187,6 @@
   origversion: null
   status: rolling
   summary: Vulnerability scanner which uses the OSV database
-- repo: macports
-  srcname: security/osv-scanner
-  binname: osv-scanner
-  visiblename: osv-scanner
-  version: 2.5.1
-  origversion: null
-  status: newest
-  summary: Vulnerability scanner which uses the data provided by https://osv.dev
-  maintainers:
-    - herbygillot@github
-  licenses:
-    - Apache-2
-  categories:
-    - security
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: osv-scanner
-  binname: osv-scanner
-  visiblename: osv-scanner
-  version: 2.5.1
-  origversion: 2.5.1-1
-  status: newest
-  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
-  licenses:
-    - Apache-2.0
 - repo: manjaro_testing
   subrepo: extra
   srcname: osv-scanner
