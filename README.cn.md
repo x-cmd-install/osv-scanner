@@ -14,25 +14,25 @@ x install osv-scanner
 
 ## 代码洞察
 
-合计: **210,428** 行代码（覆盖前 5 种语言、共 **352** 个文件）。
+合计: **211,109** 行代码（覆盖前 5 种语言、共 **352** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Yaml | 123,179 | 74 | 8 | 38 |
-| Go | 32,765 | 2,584 | 4,040 | 217 |
+| Yaml | 123,841 | 74 | 8 | 38 |
+| Go | 32,784 | 2,584 | 4,044 | 217 |
 | Json | 17,031 | 0 | 1 | 57 |
 | CHeader | 10,975 | 1,955 | 407 | 13 |
 | C | 10,553 | 3,817 | 1,680 | 27 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **8.6 / 10**
+总评分: **8.5 / 10**
 
 评分最低的几项:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
 - **Fuzzing** (0/10) — project is not fuzzed
+- **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
 
 ## 源代码
 
@@ -42,54 +42,41 @@ x install osv-scanner
 
 ## 发布
 
-- **最新版本**: `v2.5.1` (2026-08-17)
-- **最近提交**: 2026-09-11
+- **最新版本**: `v2.6.0` (2026-09-14)
+- **最近提交**: 2026-09-14
 - **Release 含资产**: 8 个
 
 ## 流行度
 
-- **Star**: 11,019 · **Fork**: 789 · **开放 issue**: 553 · **贡献者**: 125
+- **Star**: 11,020 · **Fork**: 789 · **开放 issue**: 554 · **贡献者**: 126
 
 ## 累计统计
 
-- **发布数**: 54 · **已合并 PR**: 2059 · **开放 PR**: 18 · **已关闭 issue**: 455 · **开放 issue**: 98 · **提交数**: 2035
+- **发布数**: 55 · **已合并 PR**: 2062 · **开放 PR**: 17 · **已关闭 issue**: 457 · **开放 issue**: 97 · **提交数**: 2038
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 46 | 9 | 8 | 9 | 54 |
-| last60d | 2026-07-15 | 2 | 77 | 10 | 15 | 14 | 84 |
-| 90d | 2026-06-15 | 3 | 91 | 11 | 21 | 15 | 95 |
-| last180d | 2026-03-17 | 6 | 218 | 14 | 48 | 23 | 225 |
-| 360d | 2025-09-18 | 12 | 537 | 18 | 77 | 27 | 542 |
-| last720d | 2024-09-23 | 26 | 1206 | 18 | 224 | 55 | 1195 |
+| 30d | 2026-08-15 | 2 | 48 | 8 | 9 | 8 | 51 |
+| last60d | 2026-07-16 | 3 | 80 | 9 | 16 | 13 | 85 |
+| 90d | 2026-06-16 | 4 | 94 | 10 | 23 | 14 | 91 |
+| last180d | 2026-03-18 | 7 | 220 | 13 | 49 | 22 | 215 |
+| 360d | 2025-09-19 | 13 | 540 | 17 | 79 | 26 | 534 |
+| last720d | 2024-09-24 | 27 | 1207 | 17 | 225 | 54 | 1195 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [multiple.intoto.jsonl](https://github.com/google/osv-scanner/releases/download/v2.5.1/multiple.intoto.jsonl) | 23.9 KiB | `other` |
-| [osv-scanner_darwin_amd64](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_darwin_amd64) | 56.2 MiB | `native/darwin/x64` |
-| [osv-scanner_darwin_arm64](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_darwin_arm64) | 52.9 MiB | `native/darwin/arm64` |
-| [osv-scanner_linux_amd64](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_linux_amd64) | 55.1 MiB | `native/linux/x64` |
-| [osv-scanner_linux_arm64](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_linux_arm64) | 51.4 MiB | `native/linux/arm64` |
-| [osv-scanner_SHA256SUMS](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_SHA256SUMS) | 554 B | `other` |
-| [osv-scanner_windows_amd64.exe](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_windows_amd64.exe) | 56.2 MiB | `native/win/x64` |
-| [osv-scanner_windows_arm64.exe](https://github.com/google/osv-scanner/releases/download/v2.5.1/osv-scanner_windows_arm64.exe) | 51.9 MiB | `native/win/arm64` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/osv-scanner) 上共有 **35** 个发行版报告此项目。**11** 个 ✅ 已是最新上游版本，**23** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Arch | `2.5.1` | ✅ latest |
-| Homebrew | `2.5.1` | ✅ latest |
-| Nix unstable | `2.5.1` | ✅ latest |
-| Void | `2.4.0` | ⚠️ outdated |
-| Alpine edge | `2.5.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `2.5.1` | ✅ latest |
+| [multiple.intoto.jsonl](https://github.com/google/osv-scanner/releases/download/v2.6.0/multiple.intoto.jsonl) | 22.9 KiB | `other` |
+| [osv-scanner_darwin_amd64](https://github.com/google/osv-scanner/releases/download/v2.6.0/osv-scanner_darwin_amd64) | 56.0 MiB | `native/darwin/x64` |
+| [osv-scanner_darwin_arm64](https://github.com/google/osv-scanner/releases/download/v2.6.0/osv-scanner_darwin_arm64) | 52.6 MiB | `native/darwin/arm64` |
+| [osv-scanner_linux_amd64](https://github.com/google/osv-scanner/releases/download/v2.6.0/osv-scanner_linux_amd64) | 54.9 MiB | `native/linux/x64` |
+| [osv-scanner_linux_arm64](https://github.com/google/osv-scanner/releases/download/v2.6.0/osv-scanner_linux_arm64) | 51.1 MiB | `native/linux/arm64` |
+| [osv-scanner_SHA256SUMS](https://github.com/google/osv-scanner/releases/download/v2.6.0/osv-scanner_SHA256SUMS) | 554 B | `other` |
+| [osv-scanner_windows_amd64.exe](https://github.com/google/osv-scanner/releases/download/v2.6.0/osv-scanner_windows_amd64.exe) | 56.0 MiB | `native/win/x64` |
+| [osv-scanner_windows_arm64.exe](https://github.com/google/osv-scanner/releases/download/v2.6.0/osv-scanner_windows_arm64.exe) | 51.6 MiB | `native/win/arm64` |
 
 ## 改进这些数据
 
@@ -100,4 +87,4 @@ osv-scanner 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T04:19:57Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T04:26:50Z._
