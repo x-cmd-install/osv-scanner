@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,028 · **Forks**: 790 · **Open issues**: 554 · **Contributors**: 126
+- **Stars**: 11,034 · **Forks**: 791 · **Open issues**: 554 · **Contributors**: 126
 
 ## Totals (cumulative)
 
-- **Releases**: 55 · **Merged PRs**: 2062 · **Open PRs**: 19 · **Closed issues**: 462 · **Open issues**: 92 · **Commits**: 2038
+- **Releases**: 55 · **Merged PRs**: 2062 · **Open PRs**: 20 · **Closed issues**: 462 · **Open issues**: 92 · **Commits**: 2038
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 2 | 48 | 10 | 8 | 8 | 51 |
-| last60d | 2026-07-17 | 3 | 80 | 11 | 16 | 13 | 85 |
-| 90d | 2026-06-17 | 4 | 91 | 12 | 23 | 14 | 91 |
-| last180d | 2026-03-19 | 7 | 212 | 15 | 50 | 21 | 215 |
-| 360d | 2025-09-20 | 13 | 540 | 19 | 80 | 25 | 534 |
-| last720d | 2024-09-25 | 27 | 1205 | 19 | 227 | 48 | 1193 |
+| 30d | 2026-08-17 | 2 | 45 | 11 | 8 | 7 | 51 |
+| last60d | 2026-07-18 | 3 | 80 | 12 | 16 | 13 | 85 |
+| 90d | 2026-06-18 | 4 | 89 | 13 | 23 | 14 | 91 |
+| last180d | 2026-03-20 | 7 | 210 | 16 | 50 | 21 | 215 |
+| 360d | 2025-09-21 | 13 | 540 | 20 | 80 | 25 | 534 |
+| last720d | 2024-09-26 | 27 | 1205 | 20 | 226 | 48 | 1190 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T04:27:01Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T04:22:46Z._
