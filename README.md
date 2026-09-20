@@ -4,7 +4,7 @@
 
 Vulnerability scanner written in Go which uses the data provided by https://osv.dev
 
-![osv-scanner](https://repo.x-cmd.io/osv-scanner.svg)
+[![x-cmd/install — osv-scanner Code Quality Monitoring Repo Card](https://repo.x-cmd.io/osv-scanner.svg)](https://x-cmd.com/install/osv-scanner)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,044 · **Forks**: 793 · **Open issues**: 555 · **Contributors**: 126
+- **Stars**: 11,061 · **Forks**: 794 · **Open issues**: 555 · **Contributors**: 126
 
 ## Totals (cumulative)
 
-- **Releases**: 55 · **Merged PRs**: 2065 · **Open PRs**: 18 · **Closed issues**: 464 · **Open issues**: 91 · **Commits**: 2041
+- **Releases**: 55 · **Merged PRs**: 2065 · **Open PRs**: 20 · **Closed issues**: 464 · **Open issues**: 91 · **Commits**: 2041
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 47 | 9 | 9 | 6 | 53 |
-| last60d | 2026-07-20 | 3 | 81 | 10 | 17 | 13 | 87 |
-| 90d | 2026-06-20 | 3 | 92 | 11 | 23 | 14 | 93 |
-| last180d | 2026-03-22 | 7 | 210 | 13 | 50 | 20 | 217 |
-| 360d | 2025-09-23 | 13 | 537 | 17 | 82 | 24 | 536 |
-| last720d | 2024-09-28 | 27 | 1208 | 18 | 228 | 47 | 1193 |
+| 30d | 2026-08-21 | 1 | 46 | 11 | 8 | 6 | 53 |
+| last60d | 2026-07-22 | 3 | 78 | 11 | 17 | 12 | 87 |
+| 90d | 2026-06-22 | 3 | 92 | 13 | 23 | 14 | 93 |
+| last180d | 2026-03-24 | 7 | 207 | 15 | 49 | 20 | 217 |
+| 360d | 2025-09-25 | 13 | 534 | 19 | 82 | 24 | 536 |
+| last720d | 2024-09-30 | 27 | 1200 | 20 | 227 | 47 | 1193 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T04:12:57Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T04:28:50Z._

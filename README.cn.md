@@ -4,7 +4,7 @@
 
 Vulnerability scanner written in Go which uses the data provided by https://osv.dev
 
-![osv-scanner](https://repo.x-cmd.io/osv-scanner.svg?lang=zh)
+[![x-cmd/install — osv-scanner Code Quality Monitoring Repo Card](https://repo.x-cmd.io/osv-scanner.svg?lang=zh)](https://x-cmd.com/install/osv-scanner)
 
 ## 安装
 
@@ -48,22 +48,22 @@ x install osv-scanner
 
 ## 流行度
 
-- **Star**: 11,044 · **Fork**: 793 · **开放 issue**: 555 · **贡献者**: 126
+- **Star**: 11,061 · **Fork**: 794 · **开放 issue**: 555 · **贡献者**: 126
 
 ## 累计统计
 
-- **发布数**: 55 · **已合并 PR**: 2065 · **开放 PR**: 18 · **已关闭 issue**: 464 · **开放 issue**: 91 · **提交数**: 2041
+- **发布数**: 55 · **已合并 PR**: 2065 · **开放 PR**: 20 · **已关闭 issue**: 464 · **开放 issue**: 91 · **提交数**: 2041
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 47 | 9 | 9 | 6 | 53 |
-| last60d | 2026-07-20 | 3 | 81 | 10 | 17 | 13 | 87 |
-| 90d | 2026-06-20 | 3 | 92 | 11 | 23 | 14 | 93 |
-| last180d | 2026-03-22 | 7 | 210 | 13 | 50 | 20 | 217 |
-| 360d | 2025-09-23 | 13 | 537 | 17 | 82 | 24 | 536 |
-| last720d | 2024-09-28 | 27 | 1208 | 18 | 228 | 47 | 1193 |
+| 30d | 2026-08-21 | 1 | 46 | 11 | 8 | 6 | 53 |
+| last60d | 2026-07-22 | 3 | 78 | 11 | 17 | 12 | 87 |
+| 90d | 2026-06-22 | 3 | 92 | 13 | 23 | 14 | 93 |
+| last180d | 2026-03-24 | 7 | 207 | 15 | 49 | 20 | 217 |
+| 360d | 2025-09-25 | 13 | 534 | 19 | 82 | 24 | 536 |
+| last720d | 2024-09-30 | 27 | 1200 | 20 | 227 | 47 | 1193 |
 
 ## Release 资产
 
@@ -87,4 +87,4 @@ osv-scanner 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T04:12:58Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T04:28:51Z._
