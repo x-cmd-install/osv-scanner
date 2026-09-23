@@ -4,7 +4,7 @@
 
 Vulnerability scanner written in Go which uses the data provided by https://osv.dev
 
-[![x-cmd/install — osv-scanner Code Quality Monitoring Repo Card](https://repo.x-cmd.io/osv-scanner.svg)](https://x-cmd.com/install/osv-scanner)
+[![x-cmd/install — osv-scanner Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/osv-scanner.svg)](https://x-cmd.com/install/osv-scanner)
 
 ## Install
 
@@ -14,12 +14,12 @@ x install osv-scanner
 
 ## Code insight
 
-Total: **508,604** lines of code across **662** files in the top 5 languages.
+Total: **508,556** lines of code across **661** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Yaml | 409,188 | 74 | 8 | 317 |
-| Go | 34,154 | 2,681 | 4,297 | 219 |
+| Go | 34,106 | 2,682 | 4,294 | 218 |
 | Json | 27,800 | 0 | 1 | 86 |
 | CHeader | 10,975 | 1,955 | 407 | 13 |
 | C | 10,553 | 3,817 | 1,680 | 27 |
@@ -31,8 +31,8 @@ Overall score: **8.5 / 10**
 Lowest-scoring checks:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
 - **Fuzzing** (0/10) — project is not fuzzed
+- **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.6.0` (2026-09-14)
-- **Last commit**: 2026-09-22
+- **Last commit**: 2026-09-23
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 11,073 · **Forks**: 794 · **Open issues**: 556 · **Contributors**: 126
+- **Stars**: 11,075 · **Forks**: 797 · **Open issues**: 556 · **Contributors**: 126
 
 ## Totals (cumulative)
 
-- **Releases**: 55 · **Merged PRs**: 2066 · **Open PRs**: 21 · **Closed issues**: 465 · **Open issues**: 91 · **Commits**: 2042
+- **Releases**: 55 · **Merged PRs**: 2069 · **Open PRs**: 19 · **Closed issues**: 466 · **Open issues**: 90 · **Commits**: 2045
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 45 | 13 | 8 | 6 | 46 |
-| last60d | 2026-07-24 | 3 | 77 | 13 | 16 | 13 | 86 |
-| 90d | 2026-06-24 | 3 | 92 | 14 | 23 | 15 | 94 |
-| last180d | 2026-03-26 | 6 | 207 | 16 | 49 | 21 | 214 |
-| 360d | 2025-09-27 | 13 | 535 | 20 | 82 | 25 | 526 |
-| last720d | 2024-10-02 | 27 | 1198 | 21 | 227 | 46 | 1189 |
+| 30d | 2026-08-24 | 1 | 44 | 12 | 8 | 6 | 49 |
+| last60d | 2026-07-25 | 3 | 79 | 12 | 16 | 12 | 89 |
+| 90d | 2026-06-25 | 3 | 94 | 13 | 23 | 15 | 97 |
+| last180d | 2026-03-27 | 6 | 209 | 15 | 48 | 21 | 217 |
+| 360d | 2025-09-28 | 13 | 536 | 18 | 82 | 25 | 529 |
+| last720d | 2024-10-03 | 26 | 1201 | 19 | 228 | 45 | 1189 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T04:22:29Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T04:19:32Z._
