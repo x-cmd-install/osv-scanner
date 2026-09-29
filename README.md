@@ -14,13 +14,13 @@ x install osv-scanner
 
 ## Code insight
 
-Total: **508,630** lines of code across **663** files in the top 5 languages.
+Total: **508,910** lines of code across **669** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Yaml | 409,233 | 74 | 8 | 318 |
-| Go | 34,120 | 2,683 | 4,296 | 218 |
-| Json | 27,815 | 0 | 1 | 87 |
+| Yaml | 409,236 | 74 | 8 | 319 |
+| Go | 34,195 | 2,684 | 4,299 | 218 |
+| Json | 28,015 | 0 | 1 | 92 |
 | CHeader | 10,975 | 1,955 | 407 | 13 |
 | C | 10,553 | 3,817 | 1,680 | 27 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.6.0` (2026-09-14)
-- **Last commit**: 2026-09-25
+- **Last commit**: 2026-09-29
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 11,098 · **Forks**: 800 · **Open issues**: 560 · **Contributors**: 127
+- **Stars**: 11,108 · **Forks**: 803 · **Open issues**: 560 · **Contributors**: 127
 
 ## Totals (cumulative)
 
-- **Releases**: 55 · **Merged PRs**: 2072 · **Open PRs**: 22 · **Closed issues**: 466 · **Open issues**: 94 · **Commits**: 2048
+- **Releases**: 55 · **Merged PRs**: 2074 · **Open PRs**: 22 · **Closed issues**: 468 · **Open issues**: 92 · **Commits**: 2050
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 1 | 41 | 14 | 4 | 8 | 38 |
-| last60d | 2026-07-30 | 3 | 80 | 15 | 16 | 16 | 82 |
-| 90d | 2026-06-30 | 3 | 96 | 16 | 19 | 19 | 99 |
-| last180d | 2026-04-01 | 6 | 206 | 18 | 48 | 25 | 215 |
-| 360d | 2025-10-03 | 12 | 529 | 21 | 82 | 29 | 522 |
-| last720d | 2024-10-08 | 26 | 1191 | 22 | 225 | 48 | 1186 |
+| 30d | 2026-08-30 | 1 | 42 | 14 | 5 | 7 | 40 |
+| last60d | 2026-07-31 | 3 | 82 | 15 | 16 | 15 | 84 |
+| 90d | 2026-07-01 | 3 | 98 | 16 | 20 | 18 | 101 |
+| last180d | 2026-04-02 | 6 | 208 | 18 | 48 | 24 | 217 |
+| 360d | 2025-10-04 | 12 | 531 | 21 | 83 | 28 | 524 |
+| last720d | 2024-10-09 | 26 | 1193 | 22 | 224 | 47 | 1185 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T04:52:30Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T05:17:45Z._
