@@ -14,7 +14,7 @@ x install osv-scanner
 
 ## Code insight
 
-Total: **523,784** lines of code across **684** files in the top 5 languages.
+Total: **523,772** lines of code across **684** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.6.0` (2026-09-14)
-- **Last commit**: 2026-10-02
+- **Last commit**: 2026-10-08
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 11,150 · **Forks**: 812 · **Open issues**: 564 · **Contributors**: 127
+- **Stars**: 11,150 · **Forks**: 813 · **Open issues**: 564 · **Contributors**: 127
 
 ## Totals (cumulative)
 
-- **Releases**: 55 · **Merged PRs**: 2086 · **Open PRs**: 14 · **Closed issues**: 474 · **Open issues**: 90 · **Commits**: 2062
+- **Releases**: 55 · **Merged PRs**: 2090 · **Open PRs**: 13 · **Closed issues**: 474 · **Open issues**: 90 · **Commits**: 2066
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-07 | 1 | 33 | 9 | 7 | 7 | 29 |
-| last60d | 2026-08-08 | 2 | 78 | 11 | 19 | 14 | 82 |
-| 90d | 2026-07-09 | 3 | 101 | 11 | 23 | 17 | 111 |
-| last180d | 2026-04-10 | 6 | 209 | 12 | 52 | 23 | 214 |
-| 360d | 2025-10-12 | 12 | 530 | 14 | 87 | 27 | 531 |
-| last720d | 2024-10-17 | 26 | 1199 | 14 | 228 | 46 | 1186 |
+| 30d | 2026-09-08 | 1 | 36 | 8 | 7 | 7 | 33 |
+| last60d | 2026-08-09 | 2 | 80 | 10 | 19 | 14 | 86 |
+| 90d | 2026-07-10 | 3 | 105 | 10 | 23 | 17 | 115 |
+| last180d | 2026-04-11 | 6 | 212 | 11 | 51 | 23 | 218 |
+| 360d | 2025-10-13 | 12 | 534 | 13 | 86 | 27 | 535 |
+| last720d | 2024-10-18 | 26 | 1199 | 13 | 227 | 46 | 1189 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261007.yml` · 2026-10-07T05:26:11Z._
+_Snapshot: `data/card/261008.yml` · 2026-10-08T05:35:15Z._
