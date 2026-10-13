@@ -14,12 +14,12 @@ x install osv-scanner
 
 ## 代码洞察
 
-合计: **892,850** 行代码（覆盖前 5 种语言、共 **687** 个文件）。
+合计: **893,485** 行代码（覆盖前 5 种语言、共 **690** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
 | Yaml | 791,452 | 74 | 8 | 336 |
-| Go | 34,197 | 2,671 | 4,292 | 216 |
+| Go | 34,832 | 2,710 | 4,355 | 219 |
 | Json | 29,747 | 0 | 1 | 95 |
 | CHeader | 10,975 | 1,955 | 407 | 13 |
 | C | 10,553 | 3,817 | 1,680 | 27 |
@@ -31,8 +31,8 @@ x install osv-scanner
 评分最低的几项:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
 - **Fuzzing** (0/10) — project is not fuzzed
+- **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
 
 ## 源代码
 
@@ -48,22 +48,22 @@ x install osv-scanner
 
 ## 流行度
 
-- **Star**: 11,166 · **Fork**: 809 · **开放 issue**: 565 · **贡献者**: 127
+- **Star**: 11,171 · **Fork**: 811 · **开放 issue**: 565 · **贡献者**: 127
 
 ## 累计统计
 
-- **发布数**: 56 · **已合并 PR**: 2098 · **开放 PR**: 15 · **已关闭 issue**: 478 · **开放 issue**: 87 · **提交数**: 2075
+- **发布数**: 56 · **已合并 PR**: 2104 · **开放 PR**: 11 · **已关闭 issue**: 479 · **开放 issue**: 86 · **提交数**: 2081
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-12 | 2 | 30 | 9 | 8 | 4 | 34 |
-| last60d | 2026-08-13 | 3 | 81 | 13 | 19 | 10 | 89 |
-| 90d | 2026-07-14 | 4 | 112 | 13 | 26 | 15 | 123 |
-| last180d | 2026-04-15 | 7 | 214 | 13 | 55 | 20 | 218 |
-| 360d | 2025-10-17 | 13 | 535 | 15 | 90 | 24 | 529 |
-| last720d | 2024-10-22 | 27 | 1202 | 15 | 230 | 43 | 1190 |
+| 30d | 2026-09-13 | 2 | 33 | 5 | 8 | 3 | 40 |
+| last60d | 2026-08-14 | 3 | 86 | 9 | 20 | 9 | 95 |
+| 90d | 2026-07-15 | 4 | 118 | 9 | 27 | 14 | 129 |
+| last180d | 2026-04-16 | 7 | 218 | 9 | 56 | 19 | 224 |
+| 360d | 2025-10-18 | 13 | 541 | 11 | 91 | 23 | 535 |
+| last720d | 2024-10-23 | 27 | 1205 | 11 | 230 | 42 | 1196 |
 
 ## Release 资产
 
@@ -87,4 +87,4 @@ osv-scanner 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261012.yml` · 2026-10-12T05:28:05Z._
+_数据快照: `data/card/261013.yml` · 2026-10-13T06:25:50Z._
