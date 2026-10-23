@@ -14,12 +14,12 @@ x install osv-scanner
 
 ## 代码洞察
 
-合计: **893,485** 行代码（覆盖前 5 种语言、共 **690** 个文件）。
+合计: **893,664** 行代码（覆盖前 5 种语言、共 **690** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
 | Yaml | 791,452 | 74 | 8 | 336 |
-| Go | 34,832 | 2,710 | 4,355 | 219 |
+| Go | 35,011 | 2,717 | 4,401 | 219 |
 | Json | 29,747 | 0 | 1 | 95 |
 | CHeader | 10,975 | 1,955 | 407 | 13 |
 | C | 10,553 | 3,817 | 1,680 | 27 |
@@ -43,27 +43,27 @@ x install osv-scanner
 ## 发布
 
 - **最新版本**: `v2.7.0` (2026-10-12)
-- **最近提交**: 2026-10-21
+- **最近提交**: 2026-10-22
 - **Release 含资产**: 8 个
 
 ## 流行度
 
-- **Star**: 11,227 · **Fork**: 818 · **开放 issue**: 565 · **贡献者**: 128
+- **Star**: 11,246 · **Fork**: 820 · **开放 issue**: 565 · **贡献者**: 128
 
 ## 累计统计
 
-- **发布数**: 56 · **已合并 PR**: 2108 · **开放 PR**: 12 · **已关闭 issue**: 479 · **开放 issue**: 86 · **提交数**: 2085
+- **发布数**: 56 · **已合并 PR**: 2109 · **开放 PR**: 17 · **已关闭 issue**: 480 · **开放 issue**: 85 · **提交数**: 2086
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 31 | 5 | 6 | 2 | 38 |
-| last60d | 2026-08-23 | 2 | 83 | 10 | 16 | 7 | 89 |
-| 90d | 2026-07-24 | 4 | 115 | 10 | 25 | 13 | 129 |
-| last180d | 2026-04-25 | 7 | 213 | 10 | 54 | 19 | 222 |
-| 360d | 2025-10-27 | 13 | 529 | 12 | 88 | 23 | 529 |
-| last720d | 2024-11-01 | 26 | 1184 | 12 | 228 | 42 | 1184 |
+| 30d | 2026-09-23 | 1 | 31 | 10 | 6 | 2 | 39 |
+| last60d | 2026-08-24 | 2 | 81 | 15 | 16 | 7 | 90 |
+| 90d | 2026-07-25 | 4 | 116 | 15 | 25 | 12 | 130 |
+| last180d | 2026-04-26 | 7 | 211 | 15 | 54 | 19 | 223 |
+| 360d | 2025-10-28 | 13 | 529 | 17 | 87 | 22 | 530 |
+| last720d | 2024-11-02 | 26 | 1185 | 17 | 229 | 41 | 1183 |
 
 ## Release 资产
 
@@ -78,6 +78,19 @@ x install osv-scanner
 | [osv-scanner_windows_amd64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_windows_amd64.exe) | 56.3 MiB | `native/win/x64` |
 | [osv-scanner_windows_arm64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_windows_arm64.exe) | 51.8 MiB | `native/win/arm64` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/osv-scanner) 上共有 **36** 个发行版报告此项目。**12** 个 ✅ 已是最新上游版本，**23** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Arch | `2.7.0` | ✅ latest |
+| Homebrew | `2.7.0` | ✅ latest |
+| Nix unstable | `2.7.0` | ✅ latest |
+| Void | `2.4.0` | ⚠️ outdated |
+| Alpine edge | `2.7.0` | ✅ latest |
+| openSUSE Tumbleweed | `2.7.0` | ✅ latest |
+
 ## 改进这些数据
 
 osv-scanner 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `osv-scanner` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -87,4 +100,4 @@ osv-scanner 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T04:13:50Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T04:17:57Z._

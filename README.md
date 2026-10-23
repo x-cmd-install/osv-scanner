@@ -14,12 +14,12 @@ x install osv-scanner
 
 ## Code insight
 
-Total: **893,485** lines of code across **690** files in the top 5 languages.
+Total: **893,664** lines of code across **690** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Yaml | 791,452 | 74 | 8 | 336 |
-| Go | 34,832 | 2,710 | 4,355 | 219 |
+| Go | 35,011 | 2,717 | 4,401 | 219 |
 | Json | 29,747 | 0 | 1 | 95 |
 | CHeader | 10,975 | 1,955 | 407 | 13 |
 | C | 10,553 | 3,817 | 1,680 | 27 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.7.0` (2026-10-12)
-- **Last commit**: 2026-10-21
+- **Last commit**: 2026-10-22
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 11,227 · **Forks**: 818 · **Open issues**: 565 · **Contributors**: 128
+- **Stars**: 11,246 · **Forks**: 820 · **Open issues**: 565 · **Contributors**: 128
 
 ## Totals (cumulative)
 
-- **Releases**: 56 · **Merged PRs**: 2108 · **Open PRs**: 12 · **Closed issues**: 479 · **Open issues**: 86 · **Commits**: 2085
+- **Releases**: 56 · **Merged PRs**: 2109 · **Open PRs**: 17 · **Closed issues**: 480 · **Open issues**: 85 · **Commits**: 2086
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 31 | 5 | 6 | 2 | 38 |
-| last60d | 2026-08-23 | 2 | 83 | 10 | 16 | 7 | 89 |
-| 90d | 2026-07-24 | 4 | 115 | 10 | 25 | 13 | 129 |
-| last180d | 2026-04-25 | 7 | 213 | 10 | 54 | 19 | 222 |
-| 360d | 2025-10-27 | 13 | 529 | 12 | 88 | 23 | 529 |
-| last720d | 2024-11-01 | 26 | 1184 | 12 | 228 | 42 | 1184 |
+| 30d | 2026-09-23 | 1 | 31 | 10 | 6 | 2 | 39 |
+| last60d | 2026-08-24 | 2 | 81 | 15 | 16 | 7 | 90 |
+| 90d | 2026-07-25 | 4 | 116 | 15 | 25 | 12 | 130 |
+| last180d | 2026-04-26 | 7 | 211 | 15 | 54 | 19 | 223 |
+| 360d | 2025-10-28 | 13 | 529 | 17 | 87 | 22 | 530 |
+| last720d | 2024-11-02 | 26 | 1185 | 17 | 229 | 41 | 1183 |
 
 ## Release assets
 
@@ -78,6 +78,19 @@ Lowest-scoring checks:
 | [osv-scanner_windows_amd64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_windows_amd64.exe) | 56.3 MiB | `native/win/x64` |
 | [osv-scanner_windows_arm64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_windows_arm64.exe) | 51.8 MiB | `native/win/arm64` |
 
+## Distribution status
+
+Reported by **36** distros on [repology.org](https://repology.org/project/osv-scanner). **12** are ✅ on the latest upstream release, **23** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `2.7.0` | ✅ latest |
+| Homebrew | `2.7.0` | ✅ latest |
+| Nix unstable | `2.7.0` | ✅ latest |
+| Void | `2.4.0` | ⚠️ outdated |
+| Alpine edge | `2.7.0` | ✅ latest |
+| openSUSE Tumbleweed | `2.7.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `osv-scanner` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -87,4 +100,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T04:13:49Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T04:17:56Z._
