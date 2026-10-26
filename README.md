@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.7.0` (2026-10-12)
-- **Last commit**: 2026-10-22
+- **Last commit**: 2026-10-25
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 11,258 · **Forks**: 823 · **Open issues**: 570 · **Contributors**: 129
+- **Stars**: 11,268 · **Forks**: 823 · **Open issues**: 570 · **Contributors**: 129
 
 ## Totals (cumulative)
 
-- **Releases**: 56 · **Merged PRs**: 2110 · **Open PRs**: 17 · **Closed issues**: 481 · **Open issues**: 89 · **Commits**: 2086
+- **Releases**: 56 · **Merged PRs**: 2111 · **Open PRs**: 19 · **Closed issues**: 486 · **Open issues**: 84 · **Commits**: 2087
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 1 | 30 | 10 | 7 | 5 | 39 |
-| last60d | 2026-08-26 | 2 | 80 | 14 | 15 | 9 | 90 |
-| 90d | 2026-07-27 | 4 | 116 | 15 | 26 | 16 | 130 |
-| last180d | 2026-04-28 | 7 | 209 | 15 | 54 | 23 | 223 |
-| 360d | 2025-10-30 | 12 | 526 | 17 | 88 | 26 | 530 |
-| last720d | 2024-11-04 | 26 | 1181 | 17 | 230 | 45 | 1183 |
+| 30d | 2026-09-26 | 1 | 31 | 12 | 6 | 5 | 35 |
+| last60d | 2026-08-27 | 2 | 80 | 16 | 15 | 9 | 82 |
+| 90d | 2026-07-28 | 4 | 117 | 17 | 27 | 15 | 127 |
+| last180d | 2026-04-29 | 7 | 208 | 17 | 55 | 21 | 208 |
+| 360d | 2025-10-31 | 12 | 524 | 19 | 90 | 24 | 521 |
+| last720d | 2024-11-05 | 26 | 1179 | 19 | 232 | 41 | 1183 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T04:11:34Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T04:15:21Z._
