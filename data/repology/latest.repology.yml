@@ -102,19 +102,6 @@
     - git@rxv.cc
   licenses:
     - Apache-2.0
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: osv-scanner
-  binname: osv-scanner
-  visiblename: osv-scanner
-  version: 2.4.0
-  origversion: 2.4.0_2
-  status: outdated
-  summary: Vulnerability scanner which uses the data provided by https://osv.dev
-  maintainers:
-    - pangolin@vivaldi.net
-  licenses:
-    - Apache-2.0
 - repo: altsisyphus
   srcname: osv-scanner
   binnames:
@@ -387,7 +374,7 @@
   binname: osv-scanner
   visiblename: security/osv-scanner
   version: 1.9.1
-  origversion: 1.9.1nb19
+  origversion: 1.9.1nb20
   status: outdated
   summary: Vulnerability scanner written using the OSV project
   maintainers:
@@ -425,3 +412,16 @@
     - boxjake.romero@protonmail.com
   categories:
     - development
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: osv-scanner
+  binname: osv-scanner
+  visiblename: osv-scanner
+  version: 2.4.0
+  origversion: 2.4.0_2
+  status: outdated
+  summary: Vulnerability scanner which uses the data provided by https://osv.dev
+  maintainers:
+    - pangolin@vivaldi.net
+  licenses:
+    - Apache-2.0
