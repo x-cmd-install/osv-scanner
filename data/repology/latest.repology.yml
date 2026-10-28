@@ -1,12 +1,14 @@
-- repo: manjaro_unstable
-  subrepo: extra
+- repo: alpine_3_23
+  subrepo: community
   srcname: osv-scanner
   binname: osv-scanner
   visiblename: osv-scanner
-  version: 2.7.0
-  origversion: 2.7.0-1
-  status: newest
+  version: 2.1.0
+  origversion: 2.1.0-r9
+  status: outdated
   summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
+  maintainers:
+    - git@rxv.cc
   licenses:
     - Apache-2.0
 - repo: alpine_3_18
@@ -68,31 +70,6 @@
   visiblename: osv-scanner
   version: 1.9.2
   origversion: 1.9.2-r10
-  status: outdated
-  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
-  maintainers:
-    - git@rxv.cc
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_24_05
-  srcname: osv-scanner
-  visiblename: osv-scanner
-  version: 1.7.3
-  origversion: null
-  status: outdated
-  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
-  maintainers:
-    - stephan@stehessel.de
-    - colin@urandom.co.uk
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: osv-scanner
-  binname: osv-scanner
-  visiblename: osv-scanner
-  version: 2.1.0
-  origversion: 2.1.0-r9
   status: outdated
   summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
   maintainers:
@@ -221,6 +198,29 @@
   summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
   licenses:
     - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: osv-scanner
+  binname: osv-scanner
+  visiblename: osv-scanner
+  version: 2.7.0
+  origversion: 2.7.0-1
+  status: newest
+  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_05
+  srcname: osv-scanner
+  visiblename: osv-scanner
+  version: 1.7.3
+  origversion: null
+  status: outdated
+  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
+  maintainers:
+    - stephan@stehessel.de
+    - colin@urandom.co.uk
+  licenses:
+    - Apache-2.0
 - repo: nix_stable_24_11
   srcname: osv-scanner
   visiblename: osv-scanner
@@ -255,6 +255,19 @@
   maintainers:
     - stephan@stehessel.de
     - colin@urandom.co.uk
+  licenses:
+    - Apache-2.0
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: osv-scanner
+  binname: osv-scanner
+  visiblename: osv-scanner
+  version: 2.4.0
+  origversion: 2.4.0_2
+  status: outdated
+  summary: Vulnerability scanner which uses the data provided by https://osv.dev
+  maintainers:
+    - pangolin@vivaldi.net
   licenses:
     - Apache-2.0
 - repo: nix_stable_26_05
@@ -412,16 +425,3 @@
     - boxjake.romero@protonmail.com
   categories:
     - development
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: osv-scanner
-  binname: osv-scanner
-  visiblename: osv-scanner
-  version: 2.4.0
-  origversion: 2.4.0_2
-  status: outdated
-  summary: Vulnerability scanner which uses the data provided by https://osv.dev
-  maintainers:
-    - pangolin@vivaldi.net
-  licenses:
-    - Apache-2.0
