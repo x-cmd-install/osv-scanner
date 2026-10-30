@@ -37,21 +37,6 @@
     - git@rxv.cc
   licenses:
     - Apache-2.0
-- repo: opensuse_security_tumbleweed
-  srcname: osv-scanner
-  binnames:
-    - osv-scanner
-    - osv-scanner-debuginfo
-    - osv-scanner-debugsource
-  visiblename: osv-scanner
-  version: 2.7.0
-  origversion: 2.7.0-101.1
-  status: newest
-  summary: Vulnerability scanner written in Go
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
 - repo: alpine_3_21
   subrepo: community
   srcname: osv-scanner
@@ -110,7 +95,7 @@
   binname: osv-scanner
   visiblename: osv-scanner
   version: 2.7.0
-  origversion: 2.7.0-r0
+  origversion: 2.7.0-r1
   status: newest
   summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
   maintainers:
@@ -340,6 +325,21 @@
   visiblename: osv-scanner
   version: 2.7.0
   origversion: 2.7.0-1.1
+  status: newest
+  summary: Vulnerability scanner written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: opensuse_security_tumbleweed
+  srcname: osv-scanner
+  binnames:
+    - osv-scanner
+    - osv-scanner-debuginfo
+    - osv-scanner-debugsource
+  visiblename: osv-scanner
+  version: 2.7.0
+  origversion: 2.7.0-101.1
   status: newest
   summary: Vulnerability scanner written in Go
   licenses:
