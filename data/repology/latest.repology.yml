@@ -1,36 +1,15 @@
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: osv-scanner
+- repo: freebsd
+  srcname: security/osv-scanner
   binname: osv-scanner
-  visiblename: osv-scanner
-  version: 2.5.1
-  origversion: 2.5.1-1
-  status: outdated
-  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
-  licenses:
-    - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: osv-scanner
-  binname: osv-scanner
-  visiblename: osv-scanner
-  version: 2.6.0
-  origversion: 2.6.0-1
-  status: outdated
-  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: osv-scanner
-  binname: osv-scanner
-  visiblename: osv-scanner
+  visiblename: security/osv-scanner
   version: 2.7.0
-  origversion: 2.7.0-1
+  origversion: 2.7.0_1
   status: newest
-  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
-  licenses:
-    - Apache-2.0
+  summary: Vulnerability scanner written in Go which uses the OSV database
+  maintainers:
+    - dutra@freebsd.org
+  categories:
+    - security
 - repo: alpine_3_18
   subrepo: community
   srcname: osv-scanner
@@ -169,18 +148,6 @@
   origversion: null
   status: outdated
   summary: Vulnerability scanner written in Go which uses the data provided by osv.dev
-- repo: freebsd
-  srcname: security/osv-scanner
-  binname: osv-scanner
-  visiblename: security/osv-scanner
-  version: 2.7.0
-  origversion: 2.7.0_1
-  status: newest
-  summary: Vulnerability scanner written in Go which uses the OSV database
-  maintainers:
-    - dutra@freebsd.org
-  categories:
-    - security
 - repo: homebrew
   srcname: osv-scanner
   visiblename: osv-scanner
@@ -209,6 +176,39 @@
     - Apache-2
   categories:
     - security
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: osv-scanner
+  binname: osv-scanner
+  visiblename: osv-scanner
+  version: 2.5.1
+  origversion: 2.5.1-1
+  status: outdated
+  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: osv-scanner
+  binname: osv-scanner
+  visiblename: osv-scanner
+  version: 2.6.0
+  origversion: 2.6.0-1
+  status: outdated
+  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: osv-scanner
+  binname: osv-scanner
+  visiblename: osv-scanner
+  version: 2.7.0
+  origversion: 2.7.0-1
+  status: newest
+  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
+  licenses:
+    - Apache-2.0
 - repo: nix_stable_24_05
   srcname: osv-scanner
   visiblename: osv-scanner
