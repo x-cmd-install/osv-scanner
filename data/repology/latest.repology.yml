@@ -1,15 +1,3 @@
-- repo: freebsd
-  srcname: security/osv-scanner
-  binname: osv-scanner
-  visiblename: security/osv-scanner
-  version: 2.7.0
-  origversion: 2.7.0_1
-  status: newest
-  summary: Vulnerability scanner written in Go which uses the OSV database
-  maintainers:
-    - dutra@freebsd.org
-  categories:
-    - security
 - repo: alpine_3_18
   subrepo: community
   srcname: osv-scanner
@@ -107,7 +95,7 @@
   binname: osv-scanner
   visiblename: osv-scanner
   version: 2.7.0
-  origversion: 2.7.0-r1
+  origversion: 2.7.0-r2
   status: newest
   summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
   maintainers:
@@ -148,6 +136,18 @@
   origversion: null
   status: outdated
   summary: Vulnerability scanner written in Go which uses the data provided by osv.dev
+- repo: freebsd
+  srcname: security/osv-scanner
+  binname: osv-scanner
+  visiblename: security/osv-scanner
+  version: 2.7.0
+  origversion: 2.7.0_1
+  status: newest
+  summary: Vulnerability scanner written in Go which uses the OSV database
+  maintainers:
+    - dutra@freebsd.org
+  categories:
+    - security
 - repo: homebrew
   srcname: osv-scanner
   visiblename: osv-scanner
@@ -417,9 +417,9 @@
   srcname: osv-scanner
   binname: osv-scanner
   visiblename: osv-scanner
-  version: 2.4.0
-  origversion: 2.4.0_2
-  status: outdated
+  version: 2.7.0
+  origversion: 2.7.0_1
+  status: newest
   summary: Vulnerability scanner which uses the data provided by https://osv.dev
   maintainers:
     - pangolin@vivaldi.net
