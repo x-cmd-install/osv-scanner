@@ -14,7 +14,7 @@ x install osv-scanner
 
 ## Code insight
 
-Total: **904,303** lines of code across **701** files in the top 5 languages.
+Total: **904,305** lines of code across **701** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.7.0` (2026-10-12)
-- **Last commit**: 2026-10-30
+- **Last commit**: 2026-11-01
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 11,343 · **Forks**: 830 · **Open issues**: 575 · **Contributors**: 130
+- **Stars**: 11,353 · **Forks**: 832 · **Open issues**: 575 · **Contributors**: 130
 
 ## Totals (cumulative)
 
-- **Releases**: 56 · **Merged PRs**: 2127 · **Open PRs**: 18 · **Closed issues**: 494 · **Open issues**: 81 · **Commits**: 2103
+- **Releases**: 56 · **Merged PRs**: 2128 · **Open PRs**: 21 · **Closed issues**: 494 · **Open issues**: 81 · **Commits**: 2104
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 1 | 37 | 12 | 6 | 6 | 51 |
-| last60d | 2026-09-02 | 2 | 82 | 15 | 17 | 10 | 98 |
-| 90d | 2026-08-03 | 4 | 128 | 16 | 30 | 16 | 143 |
-| last180d | 2026-05-05 | 6 | 211 | 16 | 60 | 19 | 224 |
-| 360d | 2025-11-06 | 12 | 530 | 18 | 94 | 22 | 537 |
-| last720d | 2024-11-11 | 26 | 1189 | 18 | 237 | 39 | 1190 |
+| 30d | 2026-10-03 | 1 | 38 | 15 | 6 | 6 | 37 |
+| last60d | 2026-09-03 | 2 | 83 | 18 | 17 | 10 | 87 |
+| 90d | 2026-08-04 | 4 | 129 | 19 | 30 | 15 | 127 |
+| last180d | 2026-05-06 | 6 | 210 | 19 | 58 | 19 | 212 |
+| 360d | 2025-11-07 | 12 | 530 | 21 | 94 | 22 | 526 |
+| last720d | 2024-11-12 | 26 | 1188 | 21 | 237 | 39 | 1190 |
 
 ## Release assets
 
@@ -80,14 +80,14 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **36** distros on [repology.org](https://repology.org/project/osv-scanner). **13** are ✅ on the latest upstream release, **22** are ⚠️ on an older version.
+Reported by **36** distros on [repology.org](https://repology.org/project/osv-scanner). **14** are ✅ on the latest upstream release, **21** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `2.7.0` | ✅ latest |
 | Homebrew | `2.7.0` | ✅ latest |
 | Nix unstable | `2.7.0` | ✅ latest |
-| Void | `2.4.0` | ⚠️ outdated |
+| Void | `2.7.0` | ✅ latest |
 | Alpine edge | `2.7.0` | ✅ latest |
 | openSUSE Tumbleweed | `2.7.0` | ✅ latest |
 
@@ -100,4 +100,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T05:32:25Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T05:29:58Z._
