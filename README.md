@@ -14,13 +14,13 @@ x install osv-scanner
 
 ## Code insight
 
-Total: **904,219** lines of code across **700** files in the top 5 languages.
+Total: **904,546** lines of code across **707** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Yaml | 801,507 | 74 | 8 | 344 |
-| Go | 35,335 | 2,688 | 4,463 | 220 |
-| Json | 29,860 | 0 | 1 | 96 |
+| Yaml | 801,618 | 74 | 8 | 348 |
+| Go | 35,449 | 2,691 | 4,477 | 220 |
+| Json | 29,961 | 0 | 1 | 99 |
 | CHeader | 10,975 | 1,955 | 407 | 13 |
 | C | 10,553 | 3,817 | 1,680 | 27 |
 
@@ -31,8 +31,8 @@ Overall score: **8.6 / 10**
 Lowest-scoring checks:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
 - **Fuzzing** (0/10) — project is not fuzzed
+- **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.7.0` (2026-10-12)
-- **Last commit**: 2026-11-03
+- **Last commit**: 2026-11-04
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 11,371 · **Forks**: 833 · **Open issues**: 575 · **Contributors**: 130
+- **Stars**: 11,387 · **Forks**: 834 · **Open issues**: 581 · **Contributors**: 131
 
 ## Totals (cumulative)
 
-- **Releases**: 56 · **Merged PRs**: 2135 · **Open PRs**: 13 · **Closed issues**: 495 · **Open issues**: 80 · **Commits**: 2111
+- **Releases**: 56 · **Merged PRs**: 2141 · **Open PRs**: 14 · **Closed issues**: 502 · **Open issues**: 79 · **Commits**: 2117
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 1 | 43 | 7 | 7 | 5 | 44 |
-| last60d | 2026-09-04 | 2 | 86 | 9 | 18 | 9 | 94 |
-| 90d | 2026-08-05 | 4 | 127 | 11 | 31 | 14 | 134 |
-| last180d | 2026-05-07 | 6 | 211 | 11 | 58 | 18 | 219 |
-| 360d | 2025-11-08 | 12 | 535 | 13 | 93 | 21 | 533 |
-| last720d | 2024-11-13 | 26 | 1193 | 13 | 238 | 38 | 1196 |
+| 30d | 2026-10-05 | 1 | 49 | 8 | 13 | 4 | 50 |
+| last60d | 2026-09-05 | 2 | 91 | 10 | 24 | 9 | 100 |
+| 90d | 2026-08-06 | 4 | 133 | 12 | 36 | 14 | 140 |
+| last180d | 2026-05-08 | 6 | 215 | 12 | 64 | 17 | 225 |
+| 360d | 2025-11-09 | 12 | 537 | 14 | 100 | 20 | 539 |
+| last720d | 2024-11-14 | 26 | 1198 | 14 | 245 | 37 | 1201 |
 
 ## Release assets
 
@@ -78,6 +78,19 @@ Lowest-scoring checks:
 | [osv-scanner_windows_amd64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_windows_amd64.exe) | 56.3 MiB | `native/win/x64` |
 | [osv-scanner_windows_arm64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_windows_arm64.exe) | 51.8 MiB | `native/win/arm64` |
 
+## Distribution status
+
+Reported by **36** distros on [repology.org](https://repology.org/project/osv-scanner). **14** are ✅ on the latest upstream release, **21** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `2.7.0` | ✅ latest |
+| Homebrew | `2.7.0` | ✅ latest |
+| Nix unstable | `2.7.0` | ✅ latest |
+| Void | `2.7.0` | ✅ latest |
+| Alpine edge | `2.7.0` | ✅ latest |
+| openSUSE Tumbleweed | `2.7.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `osv-scanner` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -87,4 +100,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T06:09:59Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T05:48:05Z._
