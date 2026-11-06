@@ -14,12 +14,12 @@ x install osv-scanner
 
 ## Code insight
 
-Total: **904,559** lines of code across **707** files in the top 5 languages.
+Total: **904,567** lines of code across **707** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Yaml | 801,618 | 74 | 8 | 348 |
-| Go | 35,449 | 2,691 | 4,477 | 220 |
+| Yaml | 801,621 | 74 | 8 | 348 |
+| Go | 35,454 | 2,691 | 4,480 | 220 |
 | Json | 29,961 | 0 | 1 | 99 |
 | CHeader | 10,975 | 1,955 | 407 | 13 |
 | C | 10,553 | 3,817 | 1,680 | 27 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,399 · **Forks**: 836 · **Open issues**: 593 · **Contributors**: 132
+- **Stars**: 11,423 · **Forks**: 843 · **Open issues**: 602 · **Contributors**: 133
 
 ## Totals (cumulative)
 
-- **Releases**: 56 · **Merged PRs**: 2145 · **Open PRs**: 13 · **Closed issues**: 505 · **Open issues**: 88 · **Commits**: 2121
+- **Releases**: 56 · **Merged PRs**: 2148 · **Open PRs**: 23 · **Closed issues**: 508 · **Open issues**: 94 · **Commits**: 2124
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 1 | 53 | 7 | 15 | 14 | 54 |
-| last60d | 2026-09-06 | 2 | 93 | 9 | 26 | 19 | 104 |
-| 90d | 2026-08-07 | 4 | 137 | 11 | 39 | 23 | 144 |
-| last180d | 2026-05-09 | 5 | 219 | 11 | 67 | 26 | 229 |
-| 360d | 2025-11-10 | 12 | 539 | 13 | 103 | 29 | 543 |
-| last720d | 2024-11-15 | 26 | 1202 | 13 | 248 | 46 | 1201 |
+| 30d | 2026-10-07 | 1 | 52 | 17 | 18 | 20 | 57 |
+| last60d | 2026-09-07 | 2 | 94 | 19 | 28 | 24 | 107 |
+| 90d | 2026-08-08 | 3 | 139 | 21 | 42 | 29 | 147 |
+| last180d | 2026-05-10 | 5 | 221 | 21 | 69 | 32 | 232 |
+| 360d | 2025-11-11 | 12 | 542 | 23 | 106 | 35 | 546 |
+| last720d | 2024-11-16 | 26 | 1205 | 23 | 250 | 52 | 1204 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T06:07:11Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T06:01:32Z._
