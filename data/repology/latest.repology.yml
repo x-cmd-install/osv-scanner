@@ -37,6 +37,33 @@
     - git@rxv.cc
   licenses:
     - Apache-2.0
+- repo: opensuse_security_tumbleweed
+  srcname: osv-scanner
+  binnames:
+    - osv-scanner
+    - osv-scanner-debuginfo
+    - osv-scanner-debugsource
+  visiblename: osv-scanner
+  version: 2.7.0
+  origversion: 2.7.0-101.2
+  status: newest
+  summary: Vulnerability scanner written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: openbsd
+  srcname: security/osv-scanner
+  binname: osv-scanner
+  visiblename: security/osv-scanner
+  version: 2.2.2
+  origversion: null
+  status: outdated
+  summary: scan your project's dependencies for vulnerabilities
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - security
 - repo: alpine_3_21
   subrepo: community
   srcname: osv-scanner
@@ -181,8 +208,8 @@
   srcname: osv-scanner
   binname: osv-scanner
   visiblename: osv-scanner
-  version: 1.4.0
-  origversion: 1.4.0-1
+  version: 2.6.0
+  origversion: 2.6.0-1
   status: outdated
   summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
   licenses:
@@ -192,9 +219,9 @@
   srcname: osv-scanner
   binname: osv-scanner
   visiblename: osv-scanner
-  version: 1.4.0
-  origversion: 1.4.0-1
-  status: outdated
+  version: 2.7.0
+  origversion: 2.7.0-1
+  status: newest
   summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
   licenses:
     - Apache-2.0
@@ -279,18 +306,6 @@
     - stephan@stehessel.de
   licenses:
     - Apache-2.0
-- repo: openbsd
-  srcname: security/osv-scanner
-  binname: osv-scanner
-  visiblename: security/osv-scanner
-  version: 2.2.2
-  origversion: null
-  status: outdated
-  summary: scan your project's dependencies for vulnerabilities
-  maintainers:
-    - ports@openbsd.org
-  categories:
-    - security
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: osv-scanner
@@ -325,21 +340,6 @@
   visiblename: osv-scanner
   version: 2.7.0
   origversion: 2.7.0-1.1
-  status: newest
-  summary: Vulnerability scanner written in Go
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: opensuse_security_tumbleweed
-  srcname: osv-scanner
-  binnames:
-    - osv-scanner
-    - osv-scanner-debuginfo
-    - osv-scanner-debugsource
-  visiblename: osv-scanner
-  version: 2.7.0
-  origversion: 2.7.0-101.2
   status: newest
   summary: Vulnerability scanner written in Go
   licenses:
