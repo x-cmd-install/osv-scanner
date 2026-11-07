@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,423 · **Forks**: 843 · **Open issues**: 602 · **Contributors**: 133
+- **Stars**: 11,437 · **Forks**: 845 · **Open issues**: 602 · **Contributors**: 133
 
 ## Totals (cumulative)
 
-- **Releases**: 56 · **Merged PRs**: 2148 · **Open PRs**: 23 · **Closed issues**: 508 · **Open issues**: 94 · **Commits**: 2124
+- **Releases**: 56 · **Merged PRs**: 2148 · **Open PRs**: 24 · **Closed issues**: 508 · **Open issues**: 94 · **Commits**: 2124
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 1 | 52 | 17 | 18 | 20 | 57 |
-| last60d | 2026-09-07 | 2 | 94 | 19 | 28 | 24 | 107 |
-| 90d | 2026-08-08 | 3 | 139 | 21 | 42 | 29 | 147 |
-| last180d | 2026-05-10 | 5 | 221 | 21 | 69 | 32 | 232 |
-| 360d | 2025-11-11 | 12 | 542 | 23 | 106 | 35 | 546 |
-| last720d | 2024-11-16 | 26 | 1205 | 23 | 250 | 52 | 1204 |
+| 30d | 2026-10-08 | 1 | 51 | 18 | 18 | 20 | 57 |
+| last60d | 2026-09-08 | 2 | 93 | 20 | 28 | 24 | 107 |
+| 90d | 2026-08-09 | 3 | 137 | 22 | 42 | 29 | 147 |
+| last180d | 2026-05-11 | 5 | 221 | 22 | 69 | 32 | 232 |
+| 360d | 2025-11-12 | 12 | 542 | 24 | 106 | 35 | 546 |
+| last720d | 2024-11-17 | 26 | 1201 | 24 | 250 | 52 | 1204 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **36** distros on [repology.org](https://repology.org/project/osv-scanner). **14** are ✅ on the latest upstream release, **21** are ⚠️ on an older version.
+Reported by **36** distros on [repology.org](https://repology.org/project/osv-scanner). **15** are ✅ on the latest upstream release, **20** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T06:01:32Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T05:33:04Z._
