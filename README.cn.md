@@ -31,8 +31,8 @@ x install osv-scanner
 评分最低的几项:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Fuzzing** (0/10) — project is not fuzzed
 - **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
+- **Fuzzing** (0/10) — project is not fuzzed
 
 ## 源代码
 
@@ -48,7 +48,7 @@ x install osv-scanner
 
 ## 流行度
 
-- **Star**: 11,437 · **Fork**: 845 · **开放 issue**: 602 · **贡献者**: 133
+- **Star**: 11,451 · **Fork**: 843 · **开放 issue**: 602 · **贡献者**: 133
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install osv-scanner
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 1 | 51 | 18 | 18 | 20 | 57 |
-| last60d | 2026-09-08 | 2 | 93 | 20 | 28 | 24 | 107 |
-| 90d | 2026-08-09 | 3 | 137 | 22 | 42 | 29 | 147 |
-| last180d | 2026-05-11 | 5 | 221 | 22 | 69 | 32 | 232 |
-| 360d | 2025-11-12 | 12 | 542 | 24 | 106 | 35 | 546 |
-| last720d | 2024-11-17 | 26 | 1201 | 24 | 250 | 52 | 1204 |
+| 30d | 2026-10-09 | 1 | 45 | 17 | 18 | 20 | 57 |
+| last60d | 2026-09-09 | 2 | 89 | 20 | 28 | 24 | 107 |
+| 90d | 2026-08-10 | 3 | 135 | 22 | 40 | 29 | 147 |
+| last180d | 2026-05-12 | 5 | 220 | 22 | 68 | 32 | 232 |
+| 360d | 2025-11-13 | 12 | 541 | 24 | 106 | 35 | 546 |
+| last720d | 2024-11-18 | 26 | 1201 | 24 | 248 | 52 | 1204 |
 
 ## Release 资产
 
@@ -100,4 +100,4 @@ osv-scanner 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261107.yml` · 2026-11-07T05:33:06Z._
+_数据快照: `data/card/261108.yml` · 2026-11-08T05:34:38Z._

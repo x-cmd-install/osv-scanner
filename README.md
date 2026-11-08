@@ -31,8 +31,8 @@ Overall score: **8.6 / 10**
 Lowest-scoring checks:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Fuzzing** (0/10) — project is not fuzzed
 - **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
+- **Fuzzing** (0/10) — project is not fuzzed
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,437 · **Forks**: 845 · **Open issues**: 602 · **Contributors**: 133
+- **Stars**: 11,451 · **Forks**: 843 · **Open issues**: 602 · **Contributors**: 133
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 1 | 51 | 18 | 18 | 20 | 57 |
-| last60d | 2026-09-08 | 2 | 93 | 20 | 28 | 24 | 107 |
-| 90d | 2026-08-09 | 3 | 137 | 22 | 42 | 29 | 147 |
-| last180d | 2026-05-11 | 5 | 221 | 22 | 69 | 32 | 232 |
-| 360d | 2025-11-12 | 12 | 542 | 24 | 106 | 35 | 546 |
-| last720d | 2024-11-17 | 26 | 1201 | 24 | 250 | 52 | 1204 |
+| 30d | 2026-10-09 | 1 | 45 | 17 | 18 | 20 | 57 |
+| last60d | 2026-09-09 | 2 | 89 | 20 | 28 | 24 | 107 |
+| 90d | 2026-08-10 | 3 | 135 | 22 | 40 | 29 | 147 |
+| last180d | 2026-05-12 | 5 | 220 | 22 | 68 | 32 | 232 |
+| 360d | 2025-11-13 | 12 | 541 | 24 | 106 | 35 | 546 |
+| last720d | 2024-11-18 | 26 | 1201 | 24 | 248 | 52 | 1204 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T05:33:04Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T05:34:37Z._
