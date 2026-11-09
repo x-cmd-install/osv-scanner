@@ -14,13 +14,13 @@ x install osv-scanner
 
 ## 代码洞察
 
-合计: **904,567** 行代码（覆盖前 5 种语言、共 **707** 个文件）。
+合计: **670,516** 行代码（覆盖前 5 种语言、共 **708** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Yaml | 801,621 | 74 | 8 | 348 |
-| Go | 35,454 | 2,691 | 4,480 | 220 |
-| Json | 29,961 | 0 | 1 | 99 |
+| Yaml | 566,616 | 74 | 8 | 349 |
+| Go | 35,465 | 2,691 | 4,481 | 220 |
+| Json | 30,896 | 0 | 1 | 99 |
 | CHeader | 10,975 | 1,955 | 407 | 13 |
 | C | 10,553 | 3,817 | 1,680 | 27 |
 
@@ -42,41 +42,41 @@ x install osv-scanner
 
 ## 发布
 
-- **最新版本**: `v2.7.0` (2026-10-12)
-- **最近提交**: 2026-11-05
+- **最新版本**: `v2.7.1` (2026-11-09)
+- **最近提交**: 2026-11-09
 - **Release 含资产**: 8 个
 
 ## 流行度
 
-- **Star**: 11,451 · **Fork**: 843 · **开放 issue**: 602 · **贡献者**: 133
+- **Star**: 11,460 · **Fork**: 843 · **开放 issue**: 608 · **贡献者**: 133
 
 ## 累计统计
 
-- **发布数**: 56 · **已合并 PR**: 2148 · **开放 PR**: 24 · **已关闭 issue**: 508 · **开放 issue**: 94 · **提交数**: 2124
+- **发布数**: 57 · **已合并 PR**: 2154 · **开放 PR**: 21 · **已关闭 issue**: 510 · **开放 issue**: 98 · **提交数**: 2130
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 1 | 45 | 17 | 18 | 20 | 57 |
-| last60d | 2026-09-09 | 2 | 89 | 20 | 28 | 24 | 107 |
-| 90d | 2026-08-10 | 3 | 135 | 22 | 40 | 29 | 147 |
-| last180d | 2026-05-12 | 5 | 220 | 22 | 68 | 32 | 232 |
-| 360d | 2025-11-13 | 12 | 541 | 24 | 106 | 35 | 546 |
-| last720d | 2024-11-18 | 26 | 1201 | 24 | 248 | 52 | 1204 |
+| 30d | 2026-10-10 | 2 | 51 | 14 | 20 | 24 | 49 |
+| last60d | 2026-09-10 | 3 | 88 | 16 | 29 | 27 | 91 |
+| 90d | 2026-08-11 | 4 | 139 | 19 | 41 | 32 | 147 |
+| last180d | 2026-05-13 | 6 | 226 | 19 | 70 | 35 | 228 |
+| 360d | 2025-11-14 | 13 | 544 | 21 | 108 | 39 | 535 |
+| last720d | 2024-11-19 | 27 | 1205 | 21 | 249 | 56 | 1210 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [multiple.intoto.jsonl](https://github.com/google/osv-scanner/releases/download/v2.7.0/multiple.intoto.jsonl) | 23.1 KiB | `other` |
-| [osv-scanner_darwin_amd64](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_darwin_amd64) | 56.2 MiB | `native/darwin/x64` |
-| [osv-scanner_darwin_arm64](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_darwin_arm64) | 52.8 MiB | `native/darwin/arm64` |
-| [osv-scanner_linux_amd64](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_linux_amd64) | 55.1 MiB | `native/linux/x64` |
-| [osv-scanner_linux_arm64](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_linux_arm64) | 51.4 MiB | `native/linux/arm64` |
-| [osv-scanner_SHA256SUMS](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_SHA256SUMS) | 554 B | `other` |
-| [osv-scanner_windows_amd64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_windows_amd64.exe) | 56.3 MiB | `native/win/x64` |
-| [osv-scanner_windows_arm64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_windows_arm64.exe) | 51.8 MiB | `native/win/arm64` |
+| [multiple.intoto.jsonl](https://github.com/google/osv-scanner/releases/download/v2.7.1/multiple.intoto.jsonl) | 22.8 KiB | `other` |
+| [osv-scanner_darwin_amd64](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_darwin_amd64) | 56.6 MiB | `native/darwin/x64` |
+| [osv-scanner_darwin_arm64](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_darwin_arm64) | 53.2 MiB | `native/darwin/arm64` |
+| [osv-scanner_linux_amd64](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_linux_amd64) | 55.5 MiB | `native/linux/x64` |
+| [osv-scanner_linux_arm64](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_linux_arm64) | 51.7 MiB | `native/linux/arm64` |
+| [osv-scanner_SHA256SUMS](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_SHA256SUMS) | 554 B | `other` |
+| [osv-scanner_windows_amd64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_windows_amd64.exe) | 56.7 MiB | `native/win/x64` |
+| [osv-scanner_windows_arm64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_windows_arm64.exe) | 52.2 MiB | `native/win/arm64` |
 
 ## 发行版状态
 
@@ -100,4 +100,4 @@ osv-scanner 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261108.yml` · 2026-11-08T05:34:38Z._
+_数据快照: `data/card/261109.yml` · 2026-11-09T05:44:31Z._

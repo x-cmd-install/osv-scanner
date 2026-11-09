@@ -14,13 +14,13 @@ x install osv-scanner
 
 ## Code insight
 
-Total: **904,567** lines of code across **707** files in the top 5 languages.
+Total: **670,516** lines of code across **708** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Yaml | 801,621 | 74 | 8 | 348 |
-| Go | 35,454 | 2,691 | 4,480 | 220 |
-| Json | 29,961 | 0 | 1 | 99 |
+| Yaml | 566,616 | 74 | 8 | 349 |
+| Go | 35,465 | 2,691 | 4,481 | 220 |
+| Json | 30,896 | 0 | 1 | 99 |
 | CHeader | 10,975 | 1,955 | 407 | 13 |
 | C | 10,553 | 3,817 | 1,680 | 27 |
 
@@ -42,41 +42,41 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v2.7.0` (2026-10-12)
-- **Last commit**: 2026-11-05
+- **Latest**: `v2.7.1` (2026-11-09)
+- **Last commit**: 2026-11-09
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 11,451 · **Forks**: 843 · **Open issues**: 602 · **Contributors**: 133
+- **Stars**: 11,460 · **Forks**: 843 · **Open issues**: 608 · **Contributors**: 133
 
 ## Totals (cumulative)
 
-- **Releases**: 56 · **Merged PRs**: 2148 · **Open PRs**: 24 · **Closed issues**: 508 · **Open issues**: 94 · **Commits**: 2124
+- **Releases**: 57 · **Merged PRs**: 2154 · **Open PRs**: 21 · **Closed issues**: 510 · **Open issues**: 98 · **Commits**: 2130
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 1 | 45 | 17 | 18 | 20 | 57 |
-| last60d | 2026-09-09 | 2 | 89 | 20 | 28 | 24 | 107 |
-| 90d | 2026-08-10 | 3 | 135 | 22 | 40 | 29 | 147 |
-| last180d | 2026-05-12 | 5 | 220 | 22 | 68 | 32 | 232 |
-| 360d | 2025-11-13 | 12 | 541 | 24 | 106 | 35 | 546 |
-| last720d | 2024-11-18 | 26 | 1201 | 24 | 248 | 52 | 1204 |
+| 30d | 2026-10-10 | 2 | 51 | 14 | 20 | 24 | 49 |
+| last60d | 2026-09-10 | 3 | 88 | 16 | 29 | 27 | 91 |
+| 90d | 2026-08-11 | 4 | 139 | 19 | 41 | 32 | 147 |
+| last180d | 2026-05-13 | 6 | 226 | 19 | 70 | 35 | 228 |
+| 360d | 2025-11-14 | 13 | 544 | 21 | 108 | 39 | 535 |
+| last720d | 2024-11-19 | 27 | 1205 | 21 | 249 | 56 | 1210 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [multiple.intoto.jsonl](https://github.com/google/osv-scanner/releases/download/v2.7.0/multiple.intoto.jsonl) | 23.1 KiB | `other` |
-| [osv-scanner_darwin_amd64](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_darwin_amd64) | 56.2 MiB | `native/darwin/x64` |
-| [osv-scanner_darwin_arm64](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_darwin_arm64) | 52.8 MiB | `native/darwin/arm64` |
-| [osv-scanner_linux_amd64](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_linux_amd64) | 55.1 MiB | `native/linux/x64` |
-| [osv-scanner_linux_arm64](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_linux_arm64) | 51.4 MiB | `native/linux/arm64` |
-| [osv-scanner_SHA256SUMS](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_SHA256SUMS) | 554 B | `other` |
-| [osv-scanner_windows_amd64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_windows_amd64.exe) | 56.3 MiB | `native/win/x64` |
-| [osv-scanner_windows_arm64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_windows_arm64.exe) | 51.8 MiB | `native/win/arm64` |
+| [multiple.intoto.jsonl](https://github.com/google/osv-scanner/releases/download/v2.7.1/multiple.intoto.jsonl) | 22.8 KiB | `other` |
+| [osv-scanner_darwin_amd64](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_darwin_amd64) | 56.6 MiB | `native/darwin/x64` |
+| [osv-scanner_darwin_arm64](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_darwin_arm64) | 53.2 MiB | `native/darwin/arm64` |
+| [osv-scanner_linux_amd64](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_linux_amd64) | 55.5 MiB | `native/linux/x64` |
+| [osv-scanner_linux_arm64](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_linux_arm64) | 51.7 MiB | `native/linux/arm64` |
+| [osv-scanner_SHA256SUMS](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_SHA256SUMS) | 554 B | `other` |
+| [osv-scanner_windows_amd64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_windows_amd64.exe) | 56.7 MiB | `native/win/x64` |
+| [osv-scanner_windows_arm64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_windows_arm64.exe) | 52.2 MiB | `native/win/arm64` |
 
 ## Distribution status
 
@@ -100,4 +100,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T05:34:37Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T05:44:30Z._
