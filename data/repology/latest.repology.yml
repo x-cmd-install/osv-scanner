@@ -1,14 +1,3 @@
-- repo: arch
-  subrepo: extra
-  srcname: osv-scanner
-  binname: osv-scanner
-  visiblename: osv-scanner
-  version: 2.7.0
-  origversion: 2.7.0-1
-  status: outdated
-  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
-  licenses:
-    - Apache-2.0
 - repo: alpine_3_18
   subrepo: community
   srcname: osv-scanner
@@ -100,6 +89,18 @@
     - git@rxv.cc
   licenses:
     - Apache-2.0
+- repo: nix_stable_25_05
+  srcname: osv-scanner
+  visiblename: osv-scanner
+  version: 2.0.2
+  origversion: null
+  status: outdated
+  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
+  maintainers:
+    - stephan@stehessel.de
+    - colin@urandom.co.uk
+  licenses:
+    - Apache-2.0
 - repo: alpine_edge
   subrepo: community
   srcname: osv-scanner
@@ -113,6 +114,18 @@
     - git@rxv.cc
   licenses:
     - Apache-2.0
+- repo: pkgsrc_2026_2
+  srcname: security/osv-scanner
+  binname: osv-scanner
+  visiblename: security/osv-scanner
+  version: 1.9.1
+  origversion: 1.9.1nb15
+  status: outdated
+  summary: Vulnerability scanner written using the OSV project
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - security
 - repo: altsisyphus
   srcname: osv-scanner
   binnames:
@@ -129,6 +142,17 @@
     - Apache-2.0
   categories:
     - Security/Networking
+- repo: arch
+  subrepo: extra
+  srcname: osv-scanner
+  binname: osv-scanner
+  visiblename: osv-scanner
+  version: 2.7.0
+  origversion: 2.7.0-1
+  status: outdated
+  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
+  licenses:
+    - Apache-2.0
 - repo: chocolatey
   binname: osv-scanner
   visiblename: OSV-Scanner
@@ -151,9 +175,9 @@
 - repo: homebrew
   srcname: osv-scanner
   visiblename: osv-scanner
-  version: 2.7.0
+  version: 2.7.1
   origversion: null
-  status: outdated
+  status: newest
   summary: Vulnerability scanner which uses the OSV database
 - repo: homebrew
   srcname: osv-scanner
@@ -225,18 +249,6 @@
   srcname: osv-scanner
   visiblename: osv-scanner
   version: 1.9.1
-  origversion: null
-  status: outdated
-  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
-  maintainers:
-    - stephan@stehessel.de
-    - colin@urandom.co.uk
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_05
-  srcname: osv-scanner
-  visiblename: osv-scanner
-  version: 2.0.2
   origversion: null
   status: outdated
   summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
@@ -357,18 +369,6 @@
   summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
   licenses:
     - Apache-2.0
-- repo: pkgsrc_2026_2
-  srcname: security/osv-scanner
-  binname: osv-scanner
-  visiblename: security/osv-scanner
-  version: 1.9.1
-  origversion: 1.9.1nb15
-  status: outdated
-  summary: Vulnerability scanner written using the OSV project
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - security
 - repo: pkgsrc_2026_3
   srcname: security/osv-scanner
   binname: osv-scanner
