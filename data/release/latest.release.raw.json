@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 23299,
       "digest": "sha256:7e07392792f013c036543008bb744272e384a88421a43a2b3dafa6da954589a6",
-      "download_count": 390,
+      "download_count": 467,
       "created_at": "2026-11-09T04:07:17Z",
       "updated_at": "2026-11-09T04:07:17Z",
       "browser_download_url": "https://github.com/google/osv-scanner/releases/download/v2.7.1/multiple.intoto.jsonl"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 59352784,
       "digest": "sha256:b8420d5485ba792626315f1bf9a5a2046e971d38eea75bf9090c38852dbc3b1b",
-      "download_count": 204,
+      "download_count": 243,
       "created_at": "2026-11-09T04:05:42Z",
       "updated_at": "2026-11-09T04:05:46Z",
       "browser_download_url": "https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_darwin_amd64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 55745714,
       "digest": "sha256:b22c02877a811c8f78956e8643efa554932b7378f590d13f8e97d4e9448a29f3",
-      "download_count": 3199,
+      "download_count": 3806,
       "created_at": "2026-11-09T04:05:42Z",
       "updated_at": "2026-11-09T04:05:47Z",
       "browser_download_url": "https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_darwin_arm64"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 58187936,
       "digest": "sha256:fb7dab19a8bd9bbe5c3189f09d4b7ee1820c9553a23bac202648a56efd2f6ee8",
-      "download_count": 52050,
+      "download_count": 67222,
       "created_at": "2026-11-09T04:05:42Z",
       "updated_at": "2026-11-09T04:05:47Z",
       "browser_download_url": "https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_linux_amd64"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 54198432,
       "digest": "sha256:983d22fbad9724514e3fcc6acc83b5fa64c5ffa6b0d9f510028f22c1b223ff81",
-      "download_count": 2918,
+      "download_count": 3877,
       "created_at": "2026-11-09T04:05:47Z",
       "updated_at": "2026-11-09T04:05:50Z",
       "browser_download_url": "https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_linux_arm64"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 554,
       "digest": "sha256:f7d6b86d974ad856e2e944e3556d58033d76b7bb7126c76731129f1f1a12fd89",
-      "download_count": 8226,
+      "download_count": 10935,
       "created_at": "2026-11-09T04:05:47Z",
       "updated_at": "2026-11-09T04:05:48Z",
       "browser_download_url": "https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_SHA256SUMS"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 59462656,
       "digest": "sha256:7121dcf420aefbbf89a7f0050c4d3094e079ff93afd334dfc96f16b02ec85800",
-      "download_count": 2749,
+      "download_count": 3290,
       "created_at": "2026-11-09T04:05:42Z",
       "updated_at": "2026-11-09T04:05:47Z",
       "browser_download_url": "https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_windows_amd64.exe"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 54770176,
       "digest": "sha256:5f3998b55c9268f8468502bbcb60645038fd5b145ee5e685e6ae2a32e923afc7",
-      "download_count": 104,
+      "download_count": 134,
       "created_at": "2026-11-09T04:05:47Z",
       "updated_at": "2026-11-09T04:05:52Z",
       "browser_download_url": "https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_windows_arm64.exe"
