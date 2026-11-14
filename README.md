@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,505 · **Forks**: 848 · **Open issues**: 612 · **Contributors**: 133
+- **Stars**: 11,513 · **Forks**: 851 · **Open issues**: 616 · **Contributors**: 133
 
 ## Totals (cumulative)
 
-- **Releases**: 57 · **Merged PRs**: 2159 · **Open PRs**: 21 · **Closed issues**: 512 · **Open issues**: 100 · **Commits**: 2135
+- **Releases**: 57 · **Merged PRs**: 2159 · **Open PRs**: 23 · **Closed issues**: 513 · **Open issues**: 103 · **Commits**: 2135
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 1 | 51 | 14 | 21 | 26 | 54 |
-| last60d | 2026-09-14 | 3 | 84 | 16 | 29 | 29 | 96 |
-| 90d | 2026-08-15 | 4 | 139 | 19 | 42 | 33 | 152 |
-| last180d | 2026-05-17 | 6 | 224 | 19 | 71 | 37 | 233 |
-| 360d | 2025-11-18 | 13 | 542 | 21 | 109 | 41 | 540 |
-| last720d | 2024-11-23 | 27 | 1209 | 21 | 249 | 58 | 1205 |
+| 30d | 2026-10-15 | 1 | 51 | 16 | 22 | 29 | 54 |
+| last60d | 2026-09-15 | 2 | 83 | 18 | 29 | 32 | 96 |
+| 90d | 2026-08-16 | 4 | 139 | 21 | 42 | 36 | 152 |
+| last180d | 2026-05-18 | 6 | 218 | 21 | 72 | 40 | 233 |
+| 360d | 2025-11-19 | 13 | 541 | 23 | 109 | 44 | 540 |
+| last720d | 2024-11-24 | 27 | 1205 | 23 | 250 | 61 | 1205 |
 
 ## Release assets
 
@@ -80,12 +80,12 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **36** distros on [repology.org](https://repology.org/project/osv-scanner). **3** are ✅ on the latest upstream release, **32** are ⚠️ on an older version.
+Reported by **36** distros on [repology.org](https://repology.org/project/osv-scanner). **4** are ✅ on the latest upstream release, **31** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `2.7.0` | ⚠️ outdated |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `2.7.1` | ✅ latest |
 | Nix unstable | `2.7.0` | ⚠️ outdated |
 | Void | `2.7.0` | ⚠️ outdated |
 | Alpine edge | `2.7.0` | ⚠️ outdated |
@@ -100,4 +100,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T06:04:54Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T05:52:37Z._
