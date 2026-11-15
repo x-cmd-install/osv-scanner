@@ -31,8 +31,8 @@ Overall score: **8.6 / 10**
 Lowest-scoring checks:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
 - **Fuzzing** (0/10) — project is not fuzzed
+- **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,513 · **Forks**: 851 · **Open issues**: 616 · **Contributors**: 133
+- **Stars**: 11,519 · **Forks**: 854 · **Open issues**: 616 · **Contributors**: 133
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 1 | 51 | 16 | 22 | 29 | 54 |
-| last60d | 2026-09-15 | 2 | 83 | 18 | 29 | 32 | 96 |
-| 90d | 2026-08-16 | 4 | 139 | 21 | 42 | 36 | 152 |
-| last180d | 2026-05-18 | 6 | 218 | 21 | 72 | 40 | 233 |
-| 360d | 2025-11-19 | 13 | 541 | 23 | 109 | 44 | 540 |
-| last720d | 2024-11-24 | 27 | 1205 | 23 | 250 | 61 | 1205 |
+| 30d | 2026-10-16 | 1 | 51 | 16 | 22 | 29 | 54 |
+| last60d | 2026-09-16 | 2 | 83 | 18 | 29 | 31 | 96 |
+| 90d | 2026-08-17 | 4 | 136 | 21 | 42 | 35 | 152 |
+| last180d | 2026-05-19 | 6 | 215 | 21 | 71 | 40 | 233 |
+| 360d | 2025-11-20 | 12 | 538 | 23 | 109 | 44 | 540 |
+| last720d | 2024-11-25 | 27 | 1205 | 23 | 249 | 61 | 1205 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T05:52:37Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T05:53:28Z._
