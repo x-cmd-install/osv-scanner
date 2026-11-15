@@ -1,3 +1,15 @@
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: osv-scanner
+  visiblename: osv-scanner
+  version: 1.1.0
+  origversion: 1.1.0-bp155.1.6
+  status: outdated
+  summary: Vulnerability scanner written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
 - repo: alpine_3_18
   subrepo: community
   srcname: osv-scanner
@@ -291,18 +303,6 @@
     - ports@openbsd.org
   categories:
     - security
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: osv-scanner
-  visiblename: osv-scanner
-  version: 1.1.0
-  origversion: 1.1.0-bp155.1.6
-  status: outdated
-  summary: Vulnerability scanner written in Go
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: osv-scanner
