@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.7.1` (2026-11-09)
-- **Last commit**: 2026-11-12
+- **Last commit**: 2026-11-16
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 11,519 · **Forks**: 854 · **Open issues**: 616 · **Contributors**: 133
+- **Stars**: 11,534 · **Forks**: 855 · **Open issues**: 616 · **Contributors**: 133
 
 ## Totals (cumulative)
 
-- **Releases**: 57 · **Merged PRs**: 2159 · **Open PRs**: 23 · **Closed issues**: 513 · **Open issues**: 103 · **Commits**: 2135
+- **Releases**: 57 · **Merged PRs**: 2166 · **Open PRs**: 19 · **Closed issues**: 513 · **Open issues**: 103 · **Commits**: 2142
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 1 | 51 | 16 | 22 | 29 | 54 |
-| last60d | 2026-09-16 | 2 | 83 | 18 | 29 | 31 | 96 |
-| 90d | 2026-08-17 | 4 | 136 | 21 | 42 | 35 | 152 |
-| last180d | 2026-05-19 | 6 | 215 | 21 | 71 | 40 | 233 |
-| 360d | 2025-11-20 | 12 | 538 | 23 | 109 | 44 | 540 |
-| last720d | 2024-11-25 | 27 | 1205 | 23 | 249 | 61 | 1205 |
+| 30d | 2026-10-17 | 1 | 58 | 13 | 22 | 29 | 57 |
+| last60d | 2026-09-17 | 2 | 90 | 15 | 29 | 31 | 100 |
+| 90d | 2026-08-18 | 3 | 142 | 17 | 42 | 35 | 154 |
+| last180d | 2026-05-20 | 6 | 221 | 17 | 71 | 40 | 234 |
+| 360d | 2025-11-21 | 12 | 543 | 19 | 109 | 44 | 536 |
+| last720d | 2024-11-26 | 27 | 1212 | 19 | 249 | 61 | 1212 |
 
 ## Release assets
 
@@ -85,7 +85,7 @@ Reported by **36** distros on [repology.org](https://repology.org/project/osv-sc
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `2.7.0` | ⚠️ outdated |
-| Homebrew | `2.7.1` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Nix unstable | `2.7.0` | ⚠️ outdated |
 | Void | `2.7.0` | ⚠️ outdated |
 | Alpine edge | `2.7.0` | ⚠️ outdated |
@@ -100,4 +100,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T05:53:28Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T05:53:40Z._
