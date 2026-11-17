@@ -14,12 +14,12 @@ x install osv-scanner
 
 ## Code insight
 
-Total: **670,509** lines of code across **708** files in the top 5 languages.
+Total: **670,536** lines of code across **708** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Yaml | 566,615 | 74 | 8 | 349 |
-| Go | 35,459 | 2,691 | 4,480 | 220 |
+| Go | 35,486 | 2,691 | 4,484 | 220 |
 | Json | 30,896 | 0 | 1 | 99 |
 | CHeader | 10,975 | 1,955 | 407 | 13 |
 | C | 10,553 | 3,817 | 1,680 | 27 |
@@ -31,8 +31,8 @@ Overall score: **8.6 / 10**
 Lowest-scoring checks:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Fuzzing** (0/10) — project is not fuzzed
 - **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
+- **Fuzzing** (0/10) — project is not fuzzed
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.7.1` (2026-11-09)
-- **Last commit**: 2026-11-16
+- **Last commit**: 2026-11-17
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 11,534 · **Forks**: 855 · **Open issues**: 616 · **Contributors**: 133
+- **Stars**: 11,544 · **Forks**: 855 · **Open issues**: 616 · **Contributors**: 133
 
 ## Totals (cumulative)
 
-- **Releases**: 57 · **Merged PRs**: 2166 · **Open PRs**: 19 · **Closed issues**: 513 · **Open issues**: 103 · **Commits**: 2142
+- **Releases**: 57 · **Merged PRs**: 2168 · **Open PRs**: 20 · **Closed issues**: 514 · **Open issues**: 102 · **Commits**: 2144
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 1 | 58 | 13 | 22 | 29 | 57 |
-| last60d | 2026-09-17 | 2 | 90 | 15 | 29 | 31 | 100 |
-| 90d | 2026-08-18 | 3 | 142 | 17 | 42 | 35 | 154 |
-| last180d | 2026-05-20 | 6 | 221 | 17 | 71 | 40 | 234 |
-| 360d | 2025-11-21 | 12 | 543 | 19 | 109 | 44 | 536 |
-| last720d | 2024-11-26 | 27 | 1212 | 19 | 249 | 61 | 1212 |
+| 30d | 2026-10-18 | 1 | 57 | 14 | 23 | 28 | 59 |
+| last60d | 2026-09-18 | 2 | 92 | 15 | 30 | 30 | 102 |
+| 90d | 2026-08-19 | 3 | 144 | 18 | 43 | 33 | 156 |
+| last180d | 2026-05-21 | 6 | 223 | 18 | 71 | 39 | 236 |
+| 360d | 2025-11-22 | 12 | 545 | 20 | 109 | 43 | 538 |
+| last720d | 2024-11-27 | 27 | 1213 | 20 | 250 | 60 | 1213 |
 
 ## Release assets
 
@@ -80,16 +80,16 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **36** distros on [repology.org](https://repology.org/project/osv-scanner). **4** are ✅ on the latest upstream release, **31** are ⚠️ on an older version.
+Reported by **36** distros on [repology.org](https://repology.org/project/osv-scanner). **5** are ✅ on the latest upstream release, **30** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `2.7.0` | ⚠️ outdated |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `2.7.1` | ✅ latest |
 | Nix unstable | `2.7.0` | ⚠️ outdated |
 | Void | `2.7.0` | ⚠️ outdated |
 | Alpine edge | `2.7.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `2.7.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `2.7.1` | ✅ latest |
 
 ## Improve this data
 
@@ -100,4 +100,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T05:53:40Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T07:30:23Z._
