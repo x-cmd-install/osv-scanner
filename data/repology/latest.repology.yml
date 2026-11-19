@@ -1,10 +1,14 @@
-- repo: chocolatey
+- repo: parabola
+  subrepo: extra
+  srcname: osv-scanner
   binname: osv-scanner
-  visiblename: OSV-Scanner
-  version: 1.6.2
-  origversion: null
+  visiblename: osv-scanner
+  version: 2.7.0
+  origversion: 2.7.0-1
   status: outdated
-  summary: Vulnerability scanner written in Go which uses the data provided by osv.dev
+  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_18
   subrepo: community
   srcname: osv-scanner
@@ -136,6 +140,13 @@
   summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
   licenses:
     - Apache-2.0
+- repo: chocolatey
+  binname: osv-scanner
+  visiblename: OSV-Scanner
+  version: 1.6.2
+  origversion: null
+  status: outdated
+  summary: Vulnerability scanner written in Go which uses the data provided by osv.dev
 - repo: freebsd
   srcname: security/osv-scanner
   binname: osv-scanner
@@ -346,17 +357,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: parabola
-  subrepo: extra
-  srcname: osv-scanner
-  binname: osv-scanner
-  visiblename: osv-scanner
-  version: 2.7.0
-  origversion: 2.7.0-1
-  status: outdated
-  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
-  licenses:
-    - Apache-2.0
 - repo: pkgsrc_2026_2
   srcname: security/osv-scanner
   binname: osv-scanner
