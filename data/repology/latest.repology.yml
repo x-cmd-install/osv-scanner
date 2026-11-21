@@ -268,6 +268,19 @@
     - colin@urandom.co.uk
   licenses:
     - Apache-2.0
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: osv-scanner
+  binname: osv-scanner
+  visiblename: osv-scanner
+  version: 2.7.0
+  origversion: 2.7.0_1
+  status: outdated
+  summary: Vulnerability scanner which uses the data provided by https://osv.dev
+  maintainers:
+    - pangolin@vivaldi.net
+  licenses:
+    - Apache-2.0
 - repo: nix_stable_26_05
   srcname: osv-scanner
   visiblename: osv-scanner
@@ -350,7 +363,7 @@
     - osv-scanner-debugsource
   visiblename: osv-scanner
   version: 2.7.1
-  origversion: 2.7.1-103.1
+  origversion: 2.7.1-103.2
   status: newest
   summary: Vulnerability scanner written in Go
   licenses:
@@ -412,16 +425,3 @@
     - boxjake.romero@protonmail.com
   categories:
     - development
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: osv-scanner
-  binname: osv-scanner
-  visiblename: osv-scanner
-  version: 2.7.0
-  origversion: 2.7.0_1
-  status: outdated
-  summary: Vulnerability scanner which uses the data provided by https://osv.dev
-  maintainers:
-    - pangolin@vivaldi.net
-  licenses:
-    - Apache-2.0
