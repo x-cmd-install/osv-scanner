@@ -1,14 +1,3 @@
-- repo: parabola
-  subrepo: extra
-  srcname: osv-scanner
-  binname: osv-scanner
-  visiblename: osv-scanner
-  version: 2.7.0
-  origversion: 2.7.0-1
-  status: outdated
-  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
-  licenses:
-    - Apache-2.0
 - repo: alpine_3_18
   subrepo: community
   srcname: osv-scanner
@@ -268,19 +257,6 @@
     - colin@urandom.co.uk
   licenses:
     - Apache-2.0
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: osv-scanner
-  binname: osv-scanner
-  visiblename: osv-scanner
-  version: 2.7.0
-  origversion: 2.7.0_1
-  status: outdated
-  summary: Vulnerability scanner which uses the data provided by https://osv.dev
-  maintainers:
-    - pangolin@vivaldi.net
-  licenses:
-    - Apache-2.0
 - repo: nix_stable_26_05
   srcname: osv-scanner
   visiblename: osv-scanner
@@ -370,6 +346,17 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: parabola
+  subrepo: extra
+  srcname: osv-scanner
+  binname: osv-scanner
+  visiblename: osv-scanner
+  version: 2.7.0
+  origversion: 2.7.0-1
+  status: outdated
+  summary: Vulnerability scanner written in Go which uses the data provided by https://osv.dev
+  licenses:
+    - Apache-2.0
 - repo: pkgsrc_2026_2
   srcname: security/osv-scanner
   binname: osv-scanner
@@ -425,3 +412,16 @@
     - boxjake.romero@protonmail.com
   categories:
     - development
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: osv-scanner
+  binname: osv-scanner
+  visiblename: osv-scanner
+  version: 2.7.0
+  origversion: 2.7.0_1
+  status: outdated
+  summary: Vulnerability scanner which uses the data provided by https://osv.dev
+  maintainers:
+    - pangolin@vivaldi.net
+  licenses:
+    - Apache-2.0
