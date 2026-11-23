@@ -31,8 +31,8 @@ x install osv-scanner
 评分最低的几项:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Fuzzing** (0/10) — project is not fuzzed
 - **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
+- **Fuzzing** (0/10) — project is not fuzzed
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install osv-scanner
 ## 发布
 
 - **最新版本**: `v2.7.1` (2026-11-09)
-- **最近提交**: 2026-11-20
+- **最近提交**: 2026-11-22
 - **Release 含资产**: 8 个
 
 ## 流行度
 
-- **Star**: 11,590 · **Fork**: 860 · **开放 issue**: 618 · **贡献者**: 134
+- **Star**: 11,599 · **Fork**: 859 · **开放 issue**: 618 · **贡献者**: 134
 
 ## 累计统计
 
-- **发布数**: 57 · **已合并 PR**: 2182 · **开放 PR**: 19 · **已关闭 issue**: 518 · **开放 issue**: 100 · **提交数**: 2158
+- **发布数**: 57 · **已合并 PR**: 2185 · **开放 PR**: 21 · **已关闭 issue**: 518 · **开放 issue**: 100 · **提交数**: 2161
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 1 | 63 | 13 | 24 | 26 | 73 |
-| last60d | 2026-09-23 | 2 | 102 | 15 | 32 | 29 | 116 |
-| 90d | 2026-08-24 | 3 | 153 | 17 | 45 | 31 | 170 |
-| last180d | 2026-05-26 | 6 | 233 | 17 | 74 | 37 | 250 |
-| 360d | 2025-11-27 | 12 | 547 | 19 | 113 | 41 | 552 |
-| last720d | 2024-12-02 | 27 | 1226 | 19 | 253 | 58 | 1225 |
+| 30d | 2026-10-24 | 1 | 66 | 15 | 23 | 25 | 61 |
+| last60d | 2026-09-24 | 2 | 104 | 17 | 32 | 29 | 111 |
+| 90d | 2026-08-25 | 3 | 156 | 19 | 41 | 31 | 161 |
+| last180d | 2026-05-27 | 6 | 233 | 19 | 73 | 37 | 227 |
+| 360d | 2025-11-28 | 12 | 549 | 21 | 113 | 41 | 542 |
+| last720d | 2024-12-03 | 27 | 1229 | 21 | 253 | 58 | 1227 |
 
 ## Release 资产
 
@@ -100,4 +100,4 @@ osv-scanner 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261122.yml` · 2026-11-22T06:10:48Z._
+_数据快照: `data/card/261123.yml` · 2026-11-23T07:01:31Z._
