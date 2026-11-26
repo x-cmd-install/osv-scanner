@@ -48,22 +48,22 @@ x install osv-scanner
 
 ## 流行度
 
-- **Star**: 11,621 · **Fork**: 861 · **开放 issue**: 619 · **贡献者**: 134
+- **Star**: 11,633 · **Fork**: 865 · **开放 issue**: 620 · **贡献者**: 134
 
 ## 累计统计
 
-- **发布数**: 57 · **已合并 PR**: 2189 · **开放 PR**: 16 · **已关闭 issue**: 521 · **开放 issue**: 98 · **提交数**: 2165
+- **发布数**: 57 · **已合并 PR**: 2189 · **开放 PR**: 18 · **已关闭 issue**: 521 · **开放 issue**: 99 · **提交数**: 2165
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 1 | 67 | 10 | 25 | 24 | 65 |
-| last60d | 2026-09-26 | 2 | 108 | 13 | 33 | 27 | 115 |
-| 90d | 2026-08-27 | 3 | 158 | 14 | 44 | 29 | 165 |
-| last180d | 2026-05-29 | 6 | 234 | 14 | 76 | 35 | 231 |
-| 360d | 2025-11-30 | 12 | 551 | 16 | 116 | 39 | 546 |
-| last720d | 2024-12-05 | 27 | 1231 | 16 | 255 | 56 | 1231 |
+| 30d | 2026-10-27 | 1 | 62 | 12 | 24 | 25 | 65 |
+| last60d | 2026-09-27 | 2 | 104 | 15 | 31 | 28 | 115 |
+| 90d | 2026-08-28 | 3 | 155 | 16 | 42 | 30 | 165 |
+| last180d | 2026-05-30 | 6 | 234 | 16 | 75 | 36 | 231 |
+| 360d | 2025-12-01 | 12 | 547 | 18 | 116 | 40 | 546 |
+| last720d | 2024-12-06 | 27 | 1228 | 18 | 255 | 57 | 1231 |
 
 ## Release 资产
 
@@ -78,19 +78,6 @@ x install osv-scanner
 | [osv-scanner_windows_amd64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_windows_amd64.exe) | 56.7 MiB | `native/win/x64` |
 | [osv-scanner_windows_arm64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_windows_arm64.exe) | 52.2 MiB | `native/win/arm64` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/osv-scanner) 上共有 **36** 个发行版报告此项目。**5** 个 ✅ 已是最新上游版本，**30** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Arch | `2.7.0` | ⚠️ outdated |
-| Homebrew | `2.7.1` | ✅ latest |
-| Nix unstable | `2.7.0` | ⚠️ outdated |
-| Void | `2.7.0` | ⚠️ outdated |
-| Alpine edge | `2.7.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `2.7.1` | ✅ latest |
-
 ## 改进这些数据
 
 osv-scanner 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `osv-scanner` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -100,4 +87,4 @@ osv-scanner 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261125.yml` · 2026-11-25T07:58:00Z._
+_数据快照: `data/card/261126.yml` · 2026-11-26T07:51:45Z._

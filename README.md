@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,621 · **Forks**: 861 · **Open issues**: 619 · **Contributors**: 134
+- **Stars**: 11,633 · **Forks**: 865 · **Open issues**: 620 · **Contributors**: 134
 
 ## Totals (cumulative)
 
-- **Releases**: 57 · **Merged PRs**: 2189 · **Open PRs**: 16 · **Closed issues**: 521 · **Open issues**: 98 · **Commits**: 2165
+- **Releases**: 57 · **Merged PRs**: 2189 · **Open PRs**: 18 · **Closed issues**: 521 · **Open issues**: 99 · **Commits**: 2165
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 1 | 67 | 10 | 25 | 24 | 65 |
-| last60d | 2026-09-26 | 2 | 108 | 13 | 33 | 27 | 115 |
-| 90d | 2026-08-27 | 3 | 158 | 14 | 44 | 29 | 165 |
-| last180d | 2026-05-29 | 6 | 234 | 14 | 76 | 35 | 231 |
-| 360d | 2025-11-30 | 12 | 551 | 16 | 116 | 39 | 546 |
-| last720d | 2024-12-05 | 27 | 1231 | 16 | 255 | 56 | 1231 |
+| 30d | 2026-10-27 | 1 | 62 | 12 | 24 | 25 | 65 |
+| last60d | 2026-09-27 | 2 | 104 | 15 | 31 | 28 | 115 |
+| 90d | 2026-08-28 | 3 | 155 | 16 | 42 | 30 | 165 |
+| last180d | 2026-05-30 | 6 | 234 | 16 | 75 | 36 | 231 |
+| 360d | 2025-12-01 | 12 | 547 | 18 | 116 | 40 | 546 |
+| last720d | 2024-12-06 | 27 | 1228 | 18 | 255 | 57 | 1231 |
 
 ## Release assets
 
@@ -78,19 +78,6 @@ Lowest-scoring checks:
 | [osv-scanner_windows_amd64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_windows_amd64.exe) | 56.7 MiB | `native/win/x64` |
 | [osv-scanner_windows_arm64.exe](https://github.com/google/osv-scanner/releases/download/v2.7.1/osv-scanner_windows_arm64.exe) | 52.2 MiB | `native/win/arm64` |
 
-## Distribution status
-
-Reported by **36** distros on [repology.org](https://repology.org/project/osv-scanner). **5** are ✅ on the latest upstream release, **30** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `2.7.0` | ⚠️ outdated |
-| Homebrew | `2.7.1` | ✅ latest |
-| Nix unstable | `2.7.0` | ⚠️ outdated |
-| Void | `2.7.0` | ⚠️ outdated |
-| Alpine edge | `2.7.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `2.7.1` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `osv-scanner` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -100,4 +87,4 @@ Install metadata for osv-scanner lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T07:57:59Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T07:51:42Z._
